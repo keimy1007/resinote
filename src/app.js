@@ -7,6 +7,7 @@ const setupDialog=document.querySelector('#setup-dialog');
 const imageDialog=document.querySelector('#image-dialog');
 const byId=new Map(QUESTIONS.map(q=>[q.id,q]));
 let state=readState(localStorage);
+state.bookmarks=state.bookmarks.filter(id=>byId.has(id));
 let view='home';
 let filters={subject:'all',kind:'all',year:'all',review:'all',search:'',images:false,bookmarks:false};
 let setup={subject:'all',count:'10',kind:'all',year:'all',review:'all',images:false,random:true,bookmarks:false};
