@@ -24,5 +24,11 @@ export function loadQuestions() {
   for (const [subject,topic,prompt,answer,explanation,source] of rows('reproduced',6)) {
     questions.push({subject,topic,prompt,answer,explanation,source,kind:'past',format:'reproduced',answerStatus:'再現記録をもとに編集した参考解答（元画像なし）'});
   }
+  const expansions = JSON.parse(readFileSync(new URL('../content/expanded.json', import.meta.url), 'utf8'));
+  for (const {questions:items, ...group} of expansions) {
+    for (const [prompt,answer,explanation] of items) {
+      questions.push({...group,prompt,answer,explanation,kind:'original',format:group.image?'image':'text',answerStatus:'参考解答（提供資料の別項目・条件から作成したオリジナル問題）'});
+    }
+  }
   return questions.map(q => ({id:`${q.subject}-${createHash('sha256').update(q.kind+q.prompt).digest('hex').slice(0,12)}`, ...q}));
 }

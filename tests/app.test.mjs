@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { loadQuestions } from '../scripts/content.mjs';
-import { SUBJECTS } from '../src/catalog.js';
+import { SUBJECTS, REFERENCES } from '../src/catalog.js';
 import { emptyState, selectQuestions, makeSession, gradeQuestion, summarize, readState, STORAGE_KEY } from '../src/model.js';
 
 const bank=loadQuestions();
@@ -18,7 +18,23 @@ test('8 subjects have distinct, traceable questions with answers and explanation
     assert.ok(['past','original'].includes(q.kind));
     if(q.kind==='past')assert.ok(q.image||q.format==='reproduced');
     if(q.image)assert.ok(existsSync(new URL(`../public/${q.image}`,import.meta.url)),q.image);
+    for(const ref of q.refs||[])assert.ok(REFERENCES[ref]?.url,`${q.id} unknown reference ${ref}`);
   }
+});
+
+test('table expansions cover all eight subjects and remain original with traceable sources',()=>{
+  const added=bank.filter(q=>q.group);
+  assert.equal(added.length,170);
+  for(const s of SUBJECTS)assert.ok(added.filter(q=>q.subject===s.id).length>=20,s.id);
+  assert.ok(added.every(q=>q.kind==='original'&&q.answerStatus.startsWith('参考解答')));
+  assert.equal(bank.filter(q=>q.kind==='past').length,81);
+  assert.equal(bank.filter(q=>q.kind==='past'&&q.image).length,61);
+  for(let cell=1;cell<=5;cell++){
+    const questions=added.filter(q=>q.group===`bleb-${cell}`);
+    assert.ok(questions.length>=4,`missing coverage of table cell ${cell}`);
+    assert.ok(questions.every(q=>q.image==='images/figure-025.webp'));
+  }
+  assert.ok(selectQuestions(bank,{kind:'original',images:true},emptyState()).length>=30);
 });
 
 test('combined subject/source/image filters do not leak other subjects',()=>{
@@ -70,13 +86,13 @@ test('bookmarks remain independent of the two memory states',()=>{
   assert.equal(selectQuestions(bank,{bookmarks:true,subject:'neuro'},state).length,0);
 });
 
-test('saved test answers, resume index and grades survive round trip',()=>{
+test('legacy test sessions resume as immediate-answer study without losing saved records',()=>{
   const state=emptyState();state.active=makeSession(bank.slice(0,3),{mode:'test',random:false});
-  state.active.index=1;state.active.answers[bank[0].id]='RPEと内境界膜を区別する。';
+  state.active.mode='test';state.active.index=1;state.active.answers={[bank[0].id]:'旧版の解答メモ'};
   gradeQuestion(state,state.active,bank[0].id,'correct');
   const storage={getItem(key){assert.equal(key,STORAGE_KEY);return JSON.stringify(state);}};
-  const loaded=readState(storage);assert.deepEqual(loaded,state);
-  assert.equal(loaded.active.index,1);assert.equal(loaded.active.mode,'test');
+  const loaded=readState(storage);assert.deepEqual(loaded,{...state,active:{...state.active,mode:'study'}});
+  assert.equal(loaded.active.index,1);assert.equal(loaded.active.mode,'study');
   assert.equal(loaded.active.revealed,false);
 });
 
@@ -101,7 +117,7 @@ test('old ambiguous checks migrate without losing answers, bookmarks or history'
   state.records[a]={grade:'unsure',attempts:4,lastAt:'2026-10-18T00:00:00.000Z'};
   state.records[b]={grade:'correct',attempts:2};state.records[c]={grade:'wrong',attempts:1};
   state.active.grades={[a]:'unsure',[b]:'correct'};
-  state.active.answers[a]='保存した解答';state.active.index=1;
+  state.active.answers={[a]:'保存した解答'};state.active.index=1;
   state.bookmarks=[a];state.sessions=[{id:'old',total:3,correct:1,graded:3}];
   const loaded=readState({getItem:()=>JSON.stringify(state)});
   assert.equal(loaded.records[a].grade,'wrong');

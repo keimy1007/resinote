@@ -7,6 +7,7 @@ export function readState(storage) {
     if(raw?.version!==1 || !raw.records || !Array.isArray(raw.bookmarks) || !Array.isArray(raw.sessions)) return emptyState();
     for(const record of Object.values(raw.records))if(record.grade==='unsure')record.grade='wrong';
     if(raw.active?.grades)for(const id of Object.keys(raw.active.grades))if(raw.active.grades[id]==='unsure')raw.active.grades[id]='wrong';
+    if(raw.active?.mode==='test')raw.active.mode='study';
     return raw;
   } catch { return emptyState(); }
 }
@@ -25,12 +26,12 @@ export function selectQuestions(bank, options, state) {
   );
 }
 
-export function makeSession(questions, {mode='study',count=10,random=true,subject='all'}={}, rng=Math.random) {
+export function makeSession(questions, {count=10,random=true,subject='all'}={}, rng=Math.random) {
   const list=[...questions];
   if(random) for(let i=list.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[list[i],list[j]]=[list[j],list[i]];}
   const ids=list.slice(0,count==='all'?list.length:Number(count)).map(q=>q.id);
   if(!ids.length)return null;
-  return {id:`${Date.now()}-${Math.random().toString(36).slice(2,8)}`,mode,subject,ids,index:0,answers:{},grades:{},revealed:false,finished:false,startedAt:new Date().toISOString()};
+  return {id:`${Date.now()}-${Math.random().toString(36).slice(2,8)}`,mode:'study',subject,ids,index:0,grades:{},revealed:false,finished:false,startedAt:new Date().toISOString()};
 }
 
 export function gradeQuestion(state,session,id,grade,now=new Date().toISOString()) {
