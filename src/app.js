@@ -42,6 +42,8 @@ const icon=(name,extra='')=>`<svg class="icon ${extra}" viewBox="0 0 24 24" fill
 const btn=(label,action,classes='secondary',attrs='')=>`<button class="button ${classes}" data-action="${action}" ${attrs}>${label}</button>`;
 const tags=q=>`<span class="tag tag-${q.kind}">${{past:'過去問',original:'オリジナル',specialist:'専門医試験'}[q.kind]}</span>${q.kind==='specialist'?`<span class="tag">${q.year}年 · ${q.paper==='ippan'?'一般':'臨床'}${q.number}</span>`:''}${q.image?`<span class="tag tag-image">${icon('image')}画像あり</span>`:''}${q.format==='reproduced'?'<span class="tag">再現記録・元画像なし</span>':''}`;
 
+const copyButton=id=>btn('コピー','copy-question','text-button copy-question',`data-id="${id}" aria-label="問題文をコピー"`);
+
 function toast(message){clearTimeout(toastTimer);const el=document.querySelector('#toast');el.textContent=message;el.classList.add('show');toastTimer=setTimeout(()=>el.classList.remove('show'),3200);}
 function save(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));}catch{storageFailed=true;toast('保存できませんでした。ブラウザの保存容量・設定を確認してください。');}}
 function navigate(next){view=next;render();window.scrollTo({top:0});document.querySelector('#main')?.focus({preventScroll:true});}
@@ -88,7 +90,7 @@ function reviewOptions(value){return [['all','すべて'],['correct','覚えた'
 function library(){return `<h1>${filters.bookmarks?'ブックマーク':'問題一覧'}</h1><div class="search-box">${icon('search')}<input id="search" type="search" value="${esc(filters.search)}" placeholder="疾患名・キーワードで検索" aria-label="問題を検索"></div>${filterControls()}<div id="library-results">${libraryResults()}</div>`;}
 function libraryResults(){
   const qs=selectQuestions(QUESTIONS,filters,state);
-  return `<div class="result-heading"><strong>${qs.length}<span>問が見つかりました</span></strong>${btn('この条件で学習','study-filter','secondary',qs.length?'':'disabled')}</div>${qs.length?`<div class="question-list">${qs.map(q=>`<article class="question-row"><button class="question-open" data-action="single" data-id="${q.id}"><div class="question-meta"><span class="subject-name">${subjectOf(q.subject).name}</span>${tags(q)}<span class="tag memory-status ${state.records[q.id]?.grade==='correct'?'correct':'wrong'}">${state.records[q.id]?.grade==='correct'?'覚えた':'覚えてない'}</span></div><h3>${esc(q.prompt)}</h3><p>${esc(q.topic)}</p></button><button class="bookmark-button ${state.bookmarks.includes(q.id)?'bookmarked':''}" data-action="bookmark" data-id="${q.id}" aria-label="${state.bookmarks.includes(q.id)?'ブックマーク解除':'ブックマークに追加'}" aria-pressed="${state.bookmarks.includes(q.id)}">${icon('bookmark')}</button></article>`).join('')}</div>`:empty('該当する問題がありません','科目・出題元・学習状態の条件を変えてみてください。')}`;
+  return `<div class="result-heading"><strong>${qs.length}<span>問が見つかりました</span></strong>${btn('この条件で学習','study-filter','secondary',qs.length?'':'disabled')}</div>${qs.length?`<div class="question-list">${qs.map(q=>`<article class="question-row"><button class="question-open" data-action="single" data-id="${q.id}"><div class="question-meta"><span class="subject-name">${subjectOf(q.subject).name}</span>${tags(q)}<span class="tag memory-status ${state.records[q.id]?.grade==='correct'?'correct':'wrong'}">${state.records[q.id]?.grade==='correct'?'覚えた':'覚えてない'}</span></div><h3>${esc(q.prompt)}</h3><p>${esc(q.topic)}</p></button><div class="question-actions">${copyButton(q.id)}<button class="bookmark-button ${state.bookmarks.includes(q.id)?'bookmarked':''}" data-action="bookmark" data-id="${q.id}" aria-label="${state.bookmarks.includes(q.id)?'ブックマーク解除':'ブックマークに追加'}" aria-pressed="${state.bookmarks.includes(q.id)}">${icon('bookmark')}</button></div></article>`).join('')}</div>`:empty('該当する問題がありません','科目・出題元・学習状態の条件を変えてみてください。')}`;
 }
 function empty(title,text){return `<div class="empty-state">${icon('book')}<h2>${title}</h2><p>${text}</p></div>`;}
 
@@ -113,7 +115,7 @@ function sessionView(){
   const q=byId.get(s.ids[s.index]);const subject=subjectOf(q.subject);
   const marked=state.bookmarks.includes(q.id);const grade=s.grades[q.id];
   return `<div class="session-top">${btn(`${icon('home')} ホーム`,'nav','text-button','data-view="home"')}<span>${s.kind==='specialist'?'専門医試験':'一問一答'} · ${subjectOf(s.subject)?.name||'全科目'}</span><strong>${s.index+1}<small> / ${s.ids.length}</small></strong></div>${progressBar(Math.round(s.index/s.ids.length*100),'解答の進捗')}
-  <section class="question-card"><div class="question-toolbar"><div class="question-meta"><span class="subject-name">${subject.name}</span>${tags(q)}</div><button class="bookmark-button ${marked?'bookmarked':''}" data-action="bookmark" data-id="${q.id}" aria-label="${marked?'ブックマーク解除':'ブックマークに追加'}" aria-pressed="${marked}">${icon('bookmark')}</button></div><div class="question-number">QUESTION ${String(s.index+1).padStart(2,'0')}</div><h1 class="question-prompt">${esc(q.prompt)}</h1>${q.kind==='specialist'?'<p class="small muted">出題論点を一問一答に再構成</p>':''}
+  <section class="question-card"><div class="question-toolbar"><div class="question-meta"><span class="subject-name">${subject.name}</span>${tags(q)}</div><div class="question-actions">${copyButton(q.id)}<button class="bookmark-button ${marked?'bookmarked':''}" data-action="bookmark" data-id="${q.id}" aria-label="${marked?'ブックマーク解除':'ブックマークに追加'}" aria-pressed="${marked}">${icon('bookmark')}</button></div></div><div class="question-number">QUESTION ${String(s.index+1).padStart(2,'0')}</div><h1 class="question-prompt">${esc(q.prompt)}</h1>${q.kind==='specialist'?'<p class="small muted">出題論点を一問一答に再構成</p>':''}
   ${q.image?`<figure class="question-figure"><button data-action="zoom" data-id="${q.id}" aria-label="問題画像を拡大"><img src="./${q.image}" alt="${subject.name}の提示画像" decoding="async"><span>${icon('expand')}拡大して見る</span></button><figcaption>元資料の画像</figcaption></figure>`:q.format==='reproduced'?'<div class="image-unavailable">この設問の元画像は提供資料にないため、再現記録から文章で出題しています。</div>':''}
   ${s.revealed?solution(q)+`<div class="rating-panel">${ratingButtons(q.id,grade)}<div class="next-row">${btn(s.index===s.ids.length-1?`結果を見る ${icon('arrow')}`:`次の問題 ${icon('arrow')}`,'next','primary')}</div></div>`:`<div class="reveal-row">${btn(`${icon('eye')} 答えと解説を見る`,'reveal','primary')}<span>Spaceで表示</span></div>`}</section><p class="session-help">${icon('check')}途中でも保存されます。ホームの「再開」から続きを学習できます。</p>`;
 }
@@ -129,7 +131,7 @@ function results(s){
   const values=Object.values(s.grades);const graded=values.length;const correct=values.filter(g=>g==='correct').length;
   const weak=s.ids.filter(id=>s.grades[id]&&s.grades[id]!=='correct');
   return `<h1>学習結果</h1><section class="result-summary"><div class="result-score"><strong>${correct}<span> / ${s.ids.length}</span></strong><p>覚えた問題 · チェック</p></div><div class="result-numbers"><span>覚えた <b>${correct}</b></span><span>覚えてない <b>${values.filter(g=>g==='wrong').length}</b></span></div></section><div class="review-actions">${btn('記録して終了','complete','primary')}${btn(`覚えてない問題をもう一度 (${weak.length}問)`,'retry','secondary',weak.length?'':'disabled')}<span>${graded} / ${s.ids.length}問 チェック済み</span></div>
-  <div class="review-list">${s.ids.map((id,i)=>{const q=byId.get(id);return `<article class="review-card" id="review-${i}"><div class="question-meta"><span class="question-number">Q${i+1}</span><span class="subject-name">${subjectOf(q.subject).name}</span>${tags(q)}</div><h2>${esc(q.prompt)}</h2>${q.image?`<button class="review-image" data-action="zoom" data-id="${id}"><img src="./${q.image}" alt="提示画像" loading="lazy">${icon('expand')}</button>`:''}${solution(q)}${ratingButtons(id,s.grades[id])}</article>`;}).join('')}</div><div class="review-actions">${btn('記録して終了','complete','primary')}</div>`;
+  <div class="review-list">${s.ids.map((id,i)=>{const q=byId.get(id);return `<article class="review-card" id="review-${i}"><div class="question-meta"><span class="question-number">Q${i+1}</span><span class="subject-name">${subjectOf(q.subject).name}</span>${tags(q)}${copyButton(q.id)}</div><h2>${esc(q.prompt)}</h2>${q.image?`<button class="review-image" data-action="zoom" data-id="${id}"><img src="./${q.image}" alt="提示画像" loading="lazy">${icon('expand')}</button>`:''}${solution(q)}${ratingButtons(id,s.grades[id])}</article>`;}).join('')}</div><div class="review-actions">${btn('記録して終了','complete','primary')}</div>`;
 }
 function archiveSession(){
   const s=state.active;if(!s)return;
@@ -143,7 +145,7 @@ function progress(){
 }
 function about(){return `<h1>資料と出題方針</h1><section class="panel editorial"><h2>この問題集について</h2>${EDITORIAL_NOTES.map(n=>`<p>${esc(n)}</p>`).join('')}<p>臨床の判断・投薬は、最新の添付文書とガイドライン、個別の診療状況に基づいて確認してください。</p></section><section class="panel"><h2>8科目の資料対応</h2><div class="evidence-list">${SUBJECTS.map(s=>`<div><strong>${s.name}</strong><p>${s.evidence}</p></div>`).join('')}</div></section><section class="panel"><h2>参考リンク</h2><p class="muted small">確認日：2026年10月18日。版・更新時期は各リンク先を確認してください。</p><ul class="reference-list">${Object.values(REFERENCES).map(r=>`<li><a href="${r.url}" target="_blank" rel="noopener noreferrer">${esc(r.title)} ↗</a>${r.note?`<p>${esc(r.note)}</p>`:''}</li>`).join('')}</ul></section>`;}
 
-document.addEventListener('click',event=>{
+document.addEventListener('click',async event=>{
   const b=event.target.closest('[data-action]');if(!b||b.disabled)return;
   const action=b.dataset.action;const s=state.active;
   if(action==='nav'){if(b.dataset.view==='library')filters.bookmarks=false;navigate(b.dataset.view);}
@@ -155,6 +157,10 @@ document.addEventListener('click',event=>{
   if(action==='single'){
     if(s&&!window.confirm('途中の学習を終了して、この問題を開きますか？ チェック済みの記録は残ります。'))return;
     const q=byId.get(b.dataset.id);startSession([q],{count:1,subject:q.subject,kind:q.kind,year:q.year||'all',random:false});
+  }
+  if(action==='copy-question'){
+    try{await navigator.clipboard.writeText(byId.get(b.dataset.id).prompt);toast('問題文をコピーしました');}
+    catch{toast('コピーできませんでした。問題文を選択してコピーしてください。');}
   }
   if(action==='bookmark'){
     const id=b.dataset.id;state.bookmarks=state.bookmarks.includes(id)?state.bookmarks.filter(x=>x!==id):[...state.bookmarks,id];save();

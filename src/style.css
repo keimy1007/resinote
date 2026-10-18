@@ -21,3 +21,5 @@ dialog{border:1px solid #dce4d6;border-radius:19px;padding:28px;width:560px;max-
 .stats-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.stats-grid.two>div:last-child{border-right:0}
 
 [hidden]{display:none!important}.tag-specialist{color:#6e5890;background:#f0eaf7}
+
+.question-actions{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:10px}.question-row>.question-actions{flex-direction:column;gap:4px}.copy-question{font-size:11px;white-space:nowrap;padding:8px}.review-card .copy-question{margin-left:auto}
