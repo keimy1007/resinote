@@ -42,24 +42,32 @@ test('a session caps count, never duplicates, and does not mutate source',()=>{
   assert.equal(makeSession([]),null);
 });
 
-test('self-grading updates weak review, and regrading does not inflate attempts',()=>{
+test('manual checks move questions between exactly two groups without inflating attempts',()=>{
   const state=emptyState();const q=bank[0];const s=makeSession([q]);
+  assert.equal(selectQuestions(bank,{review:'wrong'},state).length,bank.length);
   gradeQuestion(state,s,q.id,'wrong');
-  assert.equal(selectQuestions(bank,{review:'weak'},state).length,1);
+  assert.equal(selectQuestions(bank,{review:'wrong'},state).length,bank.length);
   gradeQuestion(state,s,q.id,'correct');
   assert.equal(state.records[q.id].attempts,1);
-  assert.equal(selectQuestions(bank,{review:'weak'},state).length,0);
-  const next=makeSession([q]);gradeQuestion(state,next,q.id,'unsure');
+  assert.equal(selectQuestions(bank,{review:'wrong'},state).length,bank.length-1);
+  assert.deepEqual(selectQuestions(bank,{review:'correct'},state).map(q=>q.id),[q.id]);
+  const next=makeSession([q]);
+  assert.deepEqual(next.grades,{});
+  gradeQuestion(state,next,q.id,'unsure');
+  assert.deepEqual(next.grades,{});
+  assert.equal(state.records[q.id].grade,'correct');
+  gradeQuestion(state,next,q.id,'wrong');
   assert.equal(state.records[q.id].attempts,2);
-  assert.equal(selectQuestions(bank,{review:'weak'},state).length,1);
-  assert.equal(selectQuestions(bank,{review:'new'},state).length,bank.length-1);
+  assert.equal(selectQuestions(bank,{review:'wrong'},state).length,bank.length);
+  assert.equal(selectQuestions(bank,{review:'correct'},state).length,0);
 });
 
-test('bookmark and unanswered filters handle empty results without creating sessions',()=>{
-  const state=emptyState();assert.equal(selectQuestions(bank,{review:'bookmarks'},state).length,0);
+test('bookmarks remain independent of the two memory states',()=>{
+  const state=emptyState();assert.equal(selectQuestions(bank,{bookmarks:true},state).length,0);
   state.bookmarks.push(bank[0].id);
-  assert.deepEqual(selectQuestions(bank,{review:'bookmarks'},state).map(q=>q.id),[bank[0].id]);
-  assert.equal(selectQuestions(bank,{review:'bookmarks',subject:'neuro'},state).length,0);
+  assert.deepEqual(selectQuestions(bank,{bookmarks:true,review:'wrong'},state).map(q=>q.id),[bank[0].id]);
+  assert.equal(selectQuestions(bank,{bookmarks:true,review:'correct'},state).length,0);
+  assert.equal(selectQuestions(bank,{bookmarks:true,subject:'neuro'},state).length,0);
 });
 
 test('saved test answers, resume index and grades survive round trip',()=>{
@@ -78,10 +86,32 @@ test('corrupt or unavailable browser storage starts safely',()=>{
   assert.deepEqual(readState({getItem(){return '{"version":99}';}}),emptyState());
 });
 
-test('progress counts distinct questions, not answer attempts',()=>{
+test('progress counts remembered questions and includes unchecked questions in not remembered',()=>{
   const state=emptyState();const s=makeSession(bank.slice(0,3));
-  gradeQuestion(state,s,bank[0].id,'wrong');gradeQuestion(state,s,bank[0].id,'correct');gradeQuestion(state,s,bank[1].id,'unsure');
-  assert.deepEqual(summarize(bank.slice(0,3).map(q=>q.id),state),{total:3,seen:2,correct:1,weak:1,percent:67});
+  gradeQuestion(state,s,bank[0].id,'wrong');gradeQuestion(state,s,bank[0].id,'correct');gradeQuestion(state,s,bank[1].id,'wrong');
+  assert.deepEqual(summarize(bank.slice(0,3).map(q=>q.id),state),{total:3,correct:1,wrong:2,percent:33});
+  gradeQuestion(state,s,bank[0].id,'wrong');
+  assert.deepEqual(summarize(bank.slice(0,3).map(q=>q.id),state),{total:3,correct:0,wrong:3,percent:0});
+  assert.deepEqual(summarize([],state),{total:0,correct:0,wrong:0,percent:0});
+});
+
+test('old ambiguous checks migrate without losing answers, bookmarks or history',()=>{
+  const state=emptyState();state.active=makeSession(bank.slice(0,3),{random:false});
+  const [a,b,c]=state.active.ids;
+  state.records[a]={grade:'unsure',attempts:4,lastAt:'2026-10-18T00:00:00.000Z'};
+  state.records[b]={grade:'correct',attempts:2};state.records[c]={grade:'wrong',attempts:1};
+  state.active.grades={[a]:'unsure',[b]:'correct'};
+  state.active.answers[a]='保存した解答';state.active.index=1;
+  state.bookmarks=[a];state.sessions=[{id:'old',total:3,correct:1,graded:3}];
+  const loaded=readState({getItem:()=>JSON.stringify(state)});
+  assert.equal(loaded.records[a].grade,'wrong');
+  assert.equal(loaded.records[a].attempts,4);
+  assert.equal(loaded.active.grades[a],'wrong');
+  assert.equal(loaded.active.grades[b],'correct');
+  assert.equal(loaded.active.answers[a],'保存した解答');assert.equal(loaded.active.index,1);
+  assert.deepEqual(loaded.bookmarks,state.bookmarks);assert.deepEqual(loaded.sessions,state.sessions);
+  assert.deepEqual(summarize([a,b,c],loaded),{total:3,correct:1,wrong:2,percent:33});
+  assert.deepEqual(readState({getItem:()=>JSON.stringify(loaded)}),loaded);
 });
 
 test('public output consists only of application files and reviewed image derivatives',()=>{

@@ -5,6 +5,8 @@ export function readState(storage) {
   try {
     const raw=JSON.parse(storage.getItem(STORAGE_KEY));
     if(raw?.version!==1 || !raw.records || !Array.isArray(raw.bookmarks) || !Array.isArray(raw.sessions)) return emptyState();
+    for(const record of Object.values(raw.records))if(record.grade==='unsure')record.grade='wrong';
+    if(raw.active?.grades)for(const id of Object.keys(raw.active.grades))if(raw.active.grades[id]==='unsure')raw.active.grades[id]='wrong';
     return raw;
   } catch { return emptyState(); }
 }
@@ -16,9 +18,9 @@ export function selectQuestions(bank, options, state) {
     (!options.kind||options.kind==='all'||q.kind===options.kind)&&
     (!options.images||!!q.image)&&
     (!options.topic||q.topic===options.topic)&&
-    (options.review!=='weak'||['wrong','unsure'].includes(state.records[q.id]?.grade))&&
-    (options.review!=='new'||!state.records[q.id])&&
-    (options.review!=='bookmarks'||state.bookmarks.includes(q.id))&&
+    (options.review!=='wrong'||state.records[q.id]?.grade!=='correct')&&
+    (options.review!=='correct'||state.records[q.id]?.grade==='correct')&&
+    (!options.bookmarks||state.bookmarks.includes(q.id))&&
     (!search||`${q.prompt} ${q.answer} ${q.topic} ${q.explanation}`.normalize('NFKC').toLowerCase().includes(search))
   );
 }
@@ -32,7 +34,7 @@ export function makeSession(questions, {mode='study',count=10,random=true,subjec
 }
 
 export function gradeQuestion(state,session,id,grade,now=new Date().toISOString()) {
-  if(!session.ids.includes(id)||!['correct','unsure','wrong'].includes(grade))return state;
+  if(!session.ids.includes(id)||!['correct','wrong'].includes(grade))return state;
   const old=state.records[id];
   const already=Object.hasOwn(session.grades,id);
   session.grades[id]=grade;
@@ -41,7 +43,6 @@ export function gradeQuestion(state,session,id,grade,now=new Date().toISOString(
 }
 
 export function summarize(ids,state) {
-  const records=ids.map(id=>state.records[id]).filter(Boolean);
-  const correct=records.filter(r=>r.grade==='correct').length;
-  return {total:ids.length,seen:records.length,correct,weak:records.filter(r=>r.grade!=='correct').length,percent:ids.length?Math.round(records.length/ids.length*100):0};
+  const correct=ids.filter(id=>state.records[id]?.grade==='correct').length;
+  return {total:ids.length,correct,wrong:ids.length-correct,percent:ids.length?Math.round(correct/ids.length*100):0};
 }
