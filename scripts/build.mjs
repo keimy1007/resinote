@@ -1,0 +1,11 @@
+import { mkdir, cp, writeFile, rm } from 'node:fs/promises';
+import { loadQuestions } from './content.mjs';
+const output=new URL('../dist/',import.meta.url);
+await rm(output,{recursive:true,force:true});
+await mkdir(output,{recursive:true});
+await cp(new URL('../src/',import.meta.url),output,{recursive:true});
+await cp(new URL('../public/',import.meta.url),output,{recursive:true});
+const questions=loadQuestions();
+await writeFile(new URL('questions.js',output),`export const QUESTIONS = ${JSON.stringify(questions)};\n`);
+await writeFile(new URL('.nojekyll',output),'');
+console.log(`Built ${questions.length} questions / ${questions.filter(q=>q.image).length} image questions.`);

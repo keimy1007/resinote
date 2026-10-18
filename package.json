@@ -1,0 +1,13 @@
+{
+  "name": "resitest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "眼科レジデント試験・8科目の一問一答",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
