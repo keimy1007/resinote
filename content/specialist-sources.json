@@ -1,0 +1,3200 @@
+[
+  {
+    "year": 2026,
+    "round": 38,
+    "paper": "ippan",
+    "url": "https://guchopoi.com/senmoni38-ippan/",
+    "items": [
+      {
+        "number": 1,
+        "topic": "光刺激",
+        "anchor": "1%E5%95%8F%EF%BC%9A%E5%85%89%E5%88%BA%E6%BF%80",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 2,
+        "topic": "眼循環",
+        "anchor": "2%E5%95%8F%EF%BC%9A%E7%9C%BC%E5%BE%AA%E7%92%B0",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 3,
+        "topic": "瞬目過多",
+        "anchor": "%EF%BC%93%E5%95%8F%EF%BC%9A%E7%9E%AC%E7%9B%AE%E9%81%8E%E5%A4%9A",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 4,
+        "topic": "強膜",
+        "anchor": "4%E5%95%8F%EF%BC%9A%E5%BC%B7%E8%86%9C",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 5,
+        "topic": "毛様体の組織",
+        "anchor": "5%E5%95%8F%EF%BC%9A%E6%AF%9B%E6%A7%98%E4%BD%93%E3%81%AE%E7%B5%84%E7%B9%94",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 6,
+        "topic": "内方回旋",
+        "anchor": "6%E5%95%8F%EF%BC%9A%E5%86%85%E6%96%B9%E5%9B%9E%E6%97%8B",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 7,
+        "topic": "眼圧",
+        "anchor": "7%E5%95%8F%EF%BC%9A%E7%9C%BC%E5%9C%A7",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 8,
+        "topic": "角膜内皮細胞",
+        "anchor": "8%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E5%86%85%E7%9A%AE%E7%B4%B0%E8%83%9E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 9,
+        "topic": "結膜",
+        "anchor": "9%E5%95%8F%EF%BC%9A%E7%B5%90%E8%86%9C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 10,
+        "topic": "涙液",
+        "anchor": "10%E5%95%8F%EF%BC%9A%E6%B6%99%E6%B6%B2",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 11,
+        "topic": "結膜リンパ腫",
+        "anchor": "11%E5%95%8F%EF%BC%9A%E7%B5%90%E8%86%9C%E3%83%AA%E3%83%B3%E3%83%91%E8%85%AB",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 12,
+        "topic": "毛様体剥離",
+        "anchor": "12%E5%95%8F%EF%BC%9A%E6%AF%9B%E6%A7%98%E4%BD%93%E5%89%A5%E9%9B%A2",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 13,
+        "topic": "眼内液検査",
+        "anchor": "13%E5%95%8F%EF%BC%9A%E7%9C%BC%E5%86%85%E6%B6%B2%E6%A4%9C%E6%9F%BB",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 14,
+        "topic": "角膜移植",
+        "anchor": "14%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E7%A7%BB%E6%A4%8D",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 15,
+        "topic": "サルコイドーシス診断基準",
+        "anchor": "15%E5%95%8F%EF%BC%9A%E3%82%B5%E3%83%AB%E3%82%B3%E3%82%A4%E3%83%89%E3%83%BC%E3%82%B7%E3%82%B9%E8%A8%BA%E6%96%AD%E5%9F%BA%E6%BA%96",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 16,
+        "topic": "遺伝性網膜ジストロフィの遺伝子検査",
+        "anchor": "16%E5%95%8F%EF%BC%9A%E9%81%BA%E4%BC%9D%E6%80%A7%E7%B6%B2%E8%86%9C%E3%82%B8%E3%82%B9%E3%83%88%E3%83%AD%E3%83%95%E3%82%A3%E3%81%AE%E9%81%BA%E4%BC%9D%E5%AD%90%E6%A4%9C%E6%9F%BB",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 17,
+        "topic": "WHOの失明の定義",
+        "anchor": "17%E5%95%8F%EF%BC%9AWHO%E3%81%AE%E5%A4%B1%E6%98%8E%E3%81%AE%E5%AE%9A%E7%BE%A9",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 18,
+        "topic": "角膜移植のドナースクリーニング",
+        "anchor": "18%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E7%A7%BB%E6%A4%8D%E3%81%AE%E3%83%89%E3%83%8A%E3%83%BC%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 19,
+        "topic": "DPC",
+        "anchor": "19%E5%95%8F%EF%BC%9ADPC",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 20,
+        "topic": "第一種普通自動車免許",
+        "anchor": "20%E5%95%8F%EF%BC%9A%E7%AC%AC%E4%B8%80%E7%A8%AE%E6%99%AE%E9%80%9A%E8%87%AA%E5%8B%95%E8%BB%8A%E5%85%8D%E8%A8%B1",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 21,
+        "topic": "直ちに届け出が必要な感染症",
+        "anchor": "21%E5%95%8F%EF%BC%9A%E7%9B%B4%E3%81%A1%E3%81%AB%E5%B1%8A%E3%81%91%E5%87%BA%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%AA%E6%84%9F%E6%9F%93%E7%97%87",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 22,
+        "topic": "身体障害者診断書・意見書",
+        "anchor": "22%E5%95%8F%EF%BC%9A%E8%BA%AB%E4%BD%93%E9%9A%9C%E5%AE%B3%E8%80%85%E8%A8%BA%E6%96%AD%E6%9B%B8%E3%83%BB%E6%84%8F%E8%A6%8B%E6%9B%B8",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 23,
+        "topic": "視覚障害の原因",
+        "anchor": "23%E5%95%8F%EF%BC%9A%E8%A6%96%E8%A6%9A%E9%9A%9C%E5%AE%B3%E3%81%AE%E5%8E%9F%E5%9B%A0",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 24,
+        "topic": "コホート研究",
+        "anchor": "24%E5%95%8F%EF%BC%9A%E3%82%B3%E3%83%9B%E3%83%BC%E3%83%88%E7%A0%94%E7%A9%B6",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 25,
+        "topic": "涙小管炎",
+        "anchor": "25%E5%95%8F%EF%BC%9A%E6%B6%99%E5%B0%8F%E7%AE%A1%E7%82%8E",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 26,
+        "topic": "先天性鼻涙管閉塞",
+        "anchor": "26%E5%95%8F%EF%BC%9A%E5%85%88%E5%A4%A9%E6%80%A7%E9%BC%BB%E6%B6%99%E7%AE%A1%E9%96%89%E5%A1%9E",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 27,
+        "topic": "流涙",
+        "anchor": "27%E5%95%8F%EF%BC%9A%E6%B5%81%E6%B6%99",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 28,
+        "topic": "脂腺癌",
+        "anchor": "28%E5%95%8F%EF%BC%9A%E8%84%82%E8%85%BA%E7%99%8C",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 29,
+        "topic": "眼瞼下垂の小児",
+        "anchor": "29%E5%95%8F%EF%BC%9A%E7%9C%BC%E7%9E%BC%E4%B8%8B%E5%9E%82%E3%81%AE%E5%B0%8F%E5%85%90",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 30,
+        "topic": "クラミジア",
+        "anchor": "30%E5%95%8F%EF%BC%9A%E3%82%AF%E3%83%A9%E3%83%9F%E3%82%B8%E3%82%A2",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 31,
+        "topic": "小児の細菌性結膜炎",
+        "anchor": "31%E5%95%8F%EF%BC%9A%E5%B0%8F%E5%85%90%E3%81%AE%E7%B4%B0%E8%8F%8C%E6%80%A7%E7%B5%90%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 32,
+        "topic": "再発性角膜びらん",
+        "anchor": "32%E5%95%8F%EF%BC%9A%E5%86%8D%E7%99%BA%E6%80%A7%E8%A7%92%E8%86%9C%E3%81%B3%E3%82%89%E3%82%93",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 33,
+        "topic": "薬剤性角膜障害",
+        "anchor": "33%E5%95%8F%EF%BC%9A%E8%96%AC%E5%89%A4%E6%80%A7%E8%A7%92%E8%86%9C%E9%9A%9C%E5%AE%B3",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 34,
+        "topic": "角膜の沈着性混濁",
+        "anchor": "34%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E3%81%AE%E6%B2%88%E7%9D%80%E6%80%A7%E6%B7%B7%E6%BF%81",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 35,
+        "topic": "DMEKとDSAEK",
+        "anchor": "35%E5%95%8F%EF%BC%9ADMEK%E3%81%A8DSAEK",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 36,
+        "topic": "瞼球癒着",
+        "anchor": "36%E5%95%8F%EF%BC%9A%E7%9E%BC%E7%90%83%E7%99%92%E7%9D%80",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 37,
+        "topic": "コンタクトレンズ装用",
+        "anchor": "37%E5%95%8F%EF%BC%9A%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E3%83%AC%E3%83%B3%E3%82%BA%E8%A3%85%E7%94%A8",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 38,
+        "topic": "後部強膜炎",
+        "anchor": "38%E5%95%8F%EF%BC%9A%E5%BE%8C%E9%83%A8%E5%BC%B7%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 39,
+        "topic": "PDT",
+        "anchor": "39%E5%95%8F%EF%BC%9APDT",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 40,
+        "topic": "硬性白斑",
+        "anchor": "40%E5%95%8F%EF%BC%9A%E7%A1%AC%E6%80%A7%E7%99%BD%E6%96%91",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 41,
+        "topic": "Eales病",
+        "anchor": "41%E5%95%8F%EF%BC%9AEales%E7%97%85",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 42,
+        "topic": "AMDガイドライン",
+        "anchor": "42%E5%95%8F%EF%BC%9AAMD%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 43,
+        "topic": "ヒドロキシクロロキン",
+        "anchor": "43%E5%95%8F%EF%BC%9A%E3%83%92%E3%83%89%E3%83%AD%E3%82%AD%E3%82%B7%E3%82%AF%E3%83%AD%E3%83%AD%E3%82%AD%E3%83%B3",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 44,
+        "topic": "検眼鏡",
+        "anchor": "44%E5%95%8F%EF%BC%9A%E6%A4%9C%E7%9C%BC%E9%8F%A1",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 45,
+        "topic": "PAMM",
+        "anchor": "45%E5%95%8F%EF%BC%9APAMM",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 46,
+        "topic": "シリコーンオイル",
+        "anchor": "46%E5%95%8F%EF%BC%9A%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%BC%E3%83%B3%E3%82%AA%E3%82%A4%E3%83%AB",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 47,
+        "topic": "癌関連網膜症",
+        "anchor": "47%E5%95%8F%EF%BC%9A%E7%99%8C%E9%96%A2%E9%80%A3%E7%B6%B2%E8%86%9C%E7%97%87",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 48,
+        "topic": "網膜下出血",
+        "anchor": "48%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E4%B8%8B%E5%87%BA%E8%A1%80",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 49,
+        "topic": "MEWDS",
+        "anchor": "49%E5%95%8F%EF%BC%9AMEWDS",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 50,
+        "topic": "Meyer-Schwickerath鈎",
+        "anchor": "50%E5%95%8F%EF%BC%9AMeyer-Schwickerath%E9%88%8E",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 51,
+        "topic": "両眼発症",
+        "anchor": "51%E5%95%8F%EF%BC%9A%E4%B8%A1%E7%9C%BC%E7%99%BA%E7%97%87",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 52,
+        "topic": "網膜色素変性症の認定基準",
+        "anchor": "52%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E8%89%B2%E7%B4%A0%E5%A4%89%E6%80%A7%E7%97%87%E3%81%AE%E8%AA%8D%E5%AE%9A%E5%9F%BA%E6%BA%96",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 53,
+        "topic": "Cloquet管",
+        "anchor": "53%E5%95%8F%EF%BC%9ACloquet%E7%AE%A1",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 54,
+        "topic": "後部硝子体剥離",
+        "anchor": "54%E5%95%8F%EF%BC%9A%E5%BE%8C%E9%83%A8%E7%A1%9D%E5%AD%90%E4%BD%93%E5%89%A5%E9%9B%A2",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 55,
+        "topic": "TNF阻害薬",
+        "anchor": "55%E5%95%8F%EF%BC%9ATNF%E9%98%BB%E5%AE%B3%E8%96%AC",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 56,
+        "topic": "眼トキソプラズマ",
+        "anchor": "56%E5%95%8F%EF%BC%9A%E7%9C%BC%E3%83%88%E3%82%AD%E3%82%BD%E3%83%97%E3%83%A9%E3%82%BA%E3%83%9E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 57,
+        "topic": "サルコイドーシスぶどう膜炎",
+        "anchor": "57%E5%95%8F%EF%BC%9A%E3%82%B5%E3%83%AB%E3%82%B3%E3%82%A4%E3%83%89%E3%83%BC%E3%82%B7%E3%82%B9%E3%81%B6%E3%81%A9%E3%81%86%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 58,
+        "topic": "指定難病",
+        "anchor": "58%E5%95%8F%EF%BC%9A%E6%8C%87%E5%AE%9A%E9%9B%A3%E7%97%85",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 59,
+        "topic": "続発緑内障",
+        "anchor": "59%E5%95%8F%EF%BC%9A%E7%B6%9A%E7%99%BA%E7%B7%91%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 60,
+        "topic": "若年性慢性虹彩毛様体炎",
+        "anchor": "60%E5%95%8F%EF%BC%9A%E8%8B%A5%E5%B9%B4%E6%80%A7%E6%85%A2%E6%80%A7%E8%99%B9%E5%BD%A9%E6%AF%9B%E6%A7%98%E4%BD%93%E7%82%8E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 61,
+        "topic": "両眼発症",
+        "anchor": "61%E5%95%8F%EF%BC%9A%E4%B8%A1%E7%9C%BC%E7%99%BA%E7%97%87",
+        "status": "pending",
+        "reason": "掲載情報だけでは設問・解答の論点を十分に確認できないため保留。原問題の追加確認が必要。"
+      },
+      {
+        "number": 62,
+        "topic": "肉芽腫性ぶどう膜炎",
+        "anchor": "62%E5%95%8F%EF%BC%9A%E8%82%89%E8%8A%BD%E8%85%AB%E6%80%A7%E3%81%B6%E3%81%A9%E3%81%86%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 63,
+        "topic": "小児発症のぶどう膜炎",
+        "anchor": "63%E5%95%8F%EF%BC%9A%E5%B0%8F%E5%85%90%E7%99%BA%E7%97%87%E3%81%AE%E3%81%B6%E3%81%A9%E3%81%86%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 64,
+        "topic": "視神経脊髄炎に対する治療薬",
+        "anchor": "64%E5%95%8F%EF%BC%9A%E8%A6%96%E7%A5%9E%E7%B5%8C%E8%84%8A%E9%AB%84%E7%82%8E%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E6%B2%BB%E7%99%82%E8%96%AC",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 65,
+        "topic": "調節力",
+        "anchor": "65%E5%95%8F%EF%BC%9A%E8%AA%BF%E7%AF%80%E5%8A%9B",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 66,
+        "topic": "検影法",
+        "anchor": "66%E5%95%8F%EF%BC%9A%E6%A4%9C%E5%BD%B1%E6%B3%95",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 67,
+        "topic": "下直近後転術",
+        "anchor": "67%E5%95%8F%EF%BC%9A%E4%B8%8B%E7%9B%B4%E8%BF%91%E5%BE%8C%E8%BB%A2%E8%A1%93",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 68,
+        "topic": "プリズム",
+        "anchor": "68%E5%95%8F%EF%BC%9A%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 69,
+        "topic": "sagging eye syndrome",
+        "anchor": "69%E5%95%8F%EF%BC%9Asagging_eye_syndrome",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 70,
+        "topic": "ユニバーサルデザイン",
+        "anchor": "70%E5%95%8F%EF%BC%9A%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 71,
+        "topic": "抗MOG抗体陽性視神経炎",
+        "anchor": "71%E5%95%8F%EF%BC%9A%E6%8A%97MOG%E6%8A%97%E4%BD%93%E9%99%BD%E6%80%A7%E8%A6%96%E7%A5%9E%E7%B5%8C%E7%82%8E",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 72,
+        "topic": "女性に多い疾患",
+        "anchor": "72%E5%95%8F%EF%BC%9A%E5%A5%B3%E6%80%A7%E3%81%AB%E5%A4%9A%E3%81%84%E7%96%BE%E6%82%A3",
+        "status": "pending",
+        "reason": "掲載情報だけでは設問・解答の論点を十分に確認できないため保留。原問題の追加確認が必要。"
+      },
+      {
+        "number": 73,
+        "topic": "抗AQP4抗体陽性視神経炎",
+        "anchor": "73%E5%95%8F%EF%BC%9A%E6%8A%97AQP4%E6%8A%97%E4%BD%93%E9%99%BD%E6%80%A7%E8%A6%96%E7%A5%9E%E7%B5%8C%E7%82%8E",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 74,
+        "topic": "橋病変",
+        "anchor": "74%E5%95%8F%EF%BC%9A%E6%A9%8B%E7%97%85%E5%A4%89",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 75,
+        "topic": "全眼筋麻痺",
+        "anchor": "75%E5%95%8F%EF%BC%9A%E5%85%A8%E7%9C%BC%E7%AD%8B%E9%BA%BB%E7%97%BA",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 76,
+        "topic": "動眼神経麻痺",
+        "anchor": "76%E5%95%8F%EF%BC%9A%E5%8B%95%E7%9C%BC%E7%A5%9E%E7%B5%8C%E9%BA%BB%E7%97%BA",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 77,
+        "topic": "Horner症候群",
+        "anchor": "77%E5%95%8F%EF%BC%9AHorner%E7%97%87%E5%80%99%E7%BE%A4",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 78,
+        "topic": "先天眼振",
+        "anchor": "78%E5%95%8F%EF%BC%9A%E5%85%88%E5%A4%A9%E7%9C%BC%E6%8C%AF",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 79,
+        "topic": "房水流出路",
+        "anchor": "79%E5%95%8F%EF%BC%9A%E6%88%BF%E6%B0%B4%E6%B5%81%E5%87%BA%E8%B7%AF",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 80,
+        "topic": "静的視野検査",
+        "anchor": "80%E5%95%8F%EF%BC%9A%E9%9D%99%E7%9A%84%E8%A6%96%E9%87%8E%E6%A4%9C%E6%9F%BB",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 81,
+        "topic": "緑内障点眼薬",
+        "anchor": "81%E5%95%8F%EF%BC%9A%E7%B7%91%E5%86%85%E9%9A%9C%E7%82%B9%E7%9C%BC%E8%96%AC",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 82,
+        "topic": "小児緑内障",
+        "anchor": "82%E5%95%8F%EF%BC%9A%E5%B0%8F%E5%85%90%E7%B7%91%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 83,
+        "topic": "外傷性前房出血",
+        "anchor": "83%E5%95%8F%EF%BC%9A%E5%A4%96%E5%82%B7%E6%80%A7%E5%89%8D%E6%88%BF%E5%87%BA%E8%A1%80",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 84,
+        "topic": "眼球外傷に特徴的な所見",
+        "anchor": "84%E5%95%8F%EF%BC%9A%E7%9C%BC%E7%90%83%E5%A4%96%E5%82%B7%E3%81%AB%E7%89%B9%E5%BE%B4%E7%9A%84%E3%81%AA%E6%89%80%E8%A6%8B",
+        "status": "pending",
+        "reason": "掲載情報だけでは設問・解答の論点を十分に確認できないため保留。原問題の追加確認が必要。"
+      },
+      {
+        "number": 85,
+        "topic": "英語問題",
+        "anchor": "85%E5%95%8F%EF%BC%9A%E8%8B%B1%E8%AA%9E%E5%95%8F%E9%A1%8C",
+        "status": "pending",
+        "reason": "掲載情報だけでは設問・解答の論点を十分に確認できないため保留。原問題の追加確認が必要。"
+      },
+      {
+        "number": 86,
+        "topic": "外傷性脈絡膜断裂",
+        "anchor": "86%E5%95%8F%EF%BC%9A%E5%A4%96%E5%82%B7%E6%80%A7%E8%84%88%E7%B5%A1%E8%86%9C%E6%96%AD%E8%A3%82",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 87,
+        "topic": "CT",
+        "anchor": "87%E5%95%8F%EF%BC%9ACT",
+        "status": "pending",
+        "reason": "掲載情報だけでは設問・解答の論点を十分に確認できないため保留。原問題の追加確認が必要。"
+      },
+      {
+        "number": 88,
+        "topic": "眼瞼悪性腫瘍の再建",
+        "anchor": "88%E5%95%8F%EF%BC%9A%E7%9C%BC%E7%9E%BC%E6%82%AA%E6%80%A7%E8%85%AB%E7%98%8D%E3%81%AE%E5%86%8D%E5%BB%BA",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 89,
+        "topic": "DALK",
+        "anchor": "89%E5%95%8F%EF%BC%9ADALK",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 90,
+        "topic": "SJSによる角膜上皮幹細胞疲弊",
+        "anchor": "90%E5%95%8F%EF%BC%9ASJS%E3%81%AB%E3%82%88%E3%82%8B%E8%A7%92%E8%86%9C%E4%B8%8A%E7%9A%AE%E5%B9%B9%E7%B4%B0%E8%83%9E%E7%96%B2%E5%BC%8A",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 91,
+        "topic": "滅菌",
+        "anchor": "91%E5%95%8F%EF%BC%9A%E6%BB%85%E8%8F%8C",
+        "status": "excluded",
+        "reason": "一般的な感染管理・消毒の独立問題として対象外。角結膜感染症は別途収録。"
+      },
+      {
+        "number": 92,
+        "topic": "拒絶反応",
+        "anchor": "92%E5%95%8F%EF%BC%9A%E6%8B%92%E7%B5%B6%E5%8F%8D%E5%BF%9C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 93,
+        "topic": "誤っている組み合わせ",
+        "anchor": "93%E5%95%8F%EF%BC%9A%E8%AA%A4%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 94,
+        "topic": "粘弾性物質",
+        "anchor": "94%E5%95%8F%EF%BC%9A%E7%B2%98%E5%BC%BE%E6%80%A7%E7%89%A9%E8%B3%AA",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 95,
+        "topic": "涙点プラグ",
+        "anchor": "95%E5%95%8F%EF%BC%9A%E6%B6%99%E7%82%B9%E3%83%97%E3%83%A9%E3%82%B0",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 96,
+        "topic": "翼状片手術",
+        "anchor": "96%E5%95%8F%EF%BC%9A%E7%BF%BC%E7%8A%B6%E7%89%87%E6%89%8B%E8%A1%93",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 97,
+        "topic": "チューブシャント手術",
+        "anchor": "97%E5%95%8F%EF%BC%9A%E3%83%81%E3%83%A5%E3%83%BC%E3%83%96%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%88%E6%89%8B%E8%A1%93",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 98,
+        "topic": "経強膜的ダイオードレーザー毛様体凝固",
+        "anchor": "98%E5%95%8F%EF%BC%9A%E7%B5%8C%E5%BC%B7%E8%86%9C%E7%9A%84%E3%83%80%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%89%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E6%AF%9B%E6%A7%98%E4%BD%93%E5%87%9D%E5%9B%BA",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 99,
+        "topic": "隅角プリズム",
+        "anchor": "99%E5%95%8F%EF%BC%9A%E9%9A%85%E8%A7%92%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 100,
+        "topic": "毛様体",
+        "anchor": "100%E5%95%8F%EF%BC%9A%E6%AF%9B%E6%A7%98%E4%BD%93",
+        "status": "included",
+        "subject": "glaucoma"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "round": 38,
+    "paper": "rinsyo",
+    "url": "https://guchopoi.com/senmoni38-rinsyo/",
+    "items": [
+      {
+        "number": 1,
+        "topic": "偽眼",
+        "anchor": "1%E5%95%8F%EF%BC%9A%E5%81%BD%E7%9C%BC",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 2,
+        "topic": "Best病",
+        "anchor": "2%E5%95%8F%EF%BC%9ABest%E7%97%85",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 3,
+        "topic": "CRAO",
+        "anchor": "3%E5%95%8F%EF%BC%9ACRAO",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 4,
+        "topic": "基底細胞癌",
+        "anchor": "4%E5%95%8F%EF%BC%9A%E5%9F%BA%E5%BA%95%E7%B4%B0%E8%83%9E%E7%99%8C",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 5,
+        "topic": "CMV角膜内皮炎",
+        "anchor": "5%E5%95%8F%EF%BC%9ACMV%E8%A7%92%E8%86%9C%E5%86%85%E7%9A%AE%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 6,
+        "topic": "後ろ向き観察研究",
+        "anchor": "6%E5%95%8F%EF%BC%9A%E5%BE%8C%E3%82%8D%E5%90%91%E3%81%8D%E8%A6%B3%E5%AF%9F%E7%A0%94%E7%A9%B6",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 7,
+        "topic": "オッズ比の計算",
+        "anchor": "7%E5%95%8F%EF%BC%9A%E3%82%AA%E3%83%83%E3%82%BA%E6%AF%94%E3%81%AE%E8%A8%88%E7%AE%97",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 8,
+        "topic": "ROC",
+        "anchor": "8%E5%95%8F%EF%BC%9AROC",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 9,
+        "topic": "異物による肉芽腫？",
+        "anchor": "9%E5%95%8F%EF%BC%9A%E7%95%B0%E7%89%A9%E3%81%AB%E3%82%88%E3%82%8B%E8%82%89%E8%8A%BD%E8%85%AB%EF%BC%9F",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 10,
+        "topic": "血管腫",
+        "anchor": "10%E5%95%8F%EF%BC%9A%E8%A1%80%E7%AE%A1%E8%85%AB",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 11,
+        "topic": "眼瞼ヘルペス",
+        "anchor": "11%E5%95%8F%EF%BC%9A%E7%9C%BC%E7%9E%BC%E3%83%98%E3%83%AB%E3%83%9A%E3%82%B9",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 12,
+        "topic": "ダニ",
+        "anchor": "12%E5%95%8F%EF%BC%9A%E3%83%80%E3%83%8B",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 13,
+        "topic": "春季カタル",
+        "anchor": "13%E5%95%8F%EF%BC%9A%E6%98%A5%E5%AD%A3%E3%82%AB%E3%82%BF%E3%83%AB",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 14,
+        "topic": "アカントアメーバ",
+        "anchor": "14%E5%95%8F%EF%BC%9A%E3%82%A2%E3%82%AB%E3%83%B3%E3%83%88%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 15,
+        "topic": "重症の帯状角膜変性",
+        "anchor": "15%E5%95%8F%EF%BC%9A%E9%87%8D%E7%97%87%E3%81%AE%E5%B8%AF%E7%8A%B6%E8%A7%92%E8%86%9C%E5%A4%89%E6%80%A7",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 16,
+        "topic": "液状後発白内障",
+        "anchor": "16%E5%95%8F%EF%BC%9A%E6%B6%B2%E7%8A%B6%E5%BE%8C%E7%99%BA%E7%99%BD%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 17,
+        "topic": "後部円錐水晶体",
+        "anchor": "17%E5%95%8F%EF%BC%9A%E5%BE%8C%E9%83%A8%E5%86%86%E9%8C%90%E6%B0%B4%E6%99%B6%E4%BD%93",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 18,
+        "topic": "ドルーゼン",
+        "anchor": "18%E5%95%8F%EF%BC%9A%E3%83%89%E3%83%AB%E3%83%BC%E3%82%BC%E3%83%B3",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 19,
+        "topic": "roth斑",
+        "anchor": "19%E5%95%8F%EF%BC%9Aroth%E6%96%91",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 20,
+        "topic": "SDD(subretinal drusenoid deposits)",
+        "anchor": "20%E5%95%8F%EF%BC%9ASDDsubretinal_drusenoid_deposits",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 21,
+        "topic": "ARN",
+        "anchor": "21%E5%95%8F%EF%BC%9AARN",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 22,
+        "topic": "脈絡膜血管腫",
+        "anchor": "22%E5%95%8F%EF%BC%9A%E8%84%88%E7%B5%A1%E8%86%9C%E8%A1%80%E7%AE%A1%E8%85%AB",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 23,
+        "topic": "先天性停在性夜盲の不全型",
+        "anchor": "23%E5%95%8F%EF%BC%9A%E5%85%88%E5%A4%A9%E6%80%A7%E5%81%9C%E5%9C%A8%E6%80%A7%E5%A4%9C%E7%9B%B2%E3%81%AE%E4%B8%8D%E5%85%A8%E5%9E%8B",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 24,
+        "topic": "シダ状蛍光漏出",
+        "anchor": "24%E5%95%8F%EF%BC%9A%E3%82%B7%E3%83%80%E7%8A%B6%E8%9B%8D%E5%85%89%E6%BC%8F%E5%87%BA",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 25,
+        "topic": "網膜隆起性病変",
+        "anchor": "25%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E9%9A%86%E8%B5%B7%E6%80%A7%E7%97%85%E5%A4%89",
+        "status": "pending",
+        "reason": "掲載情報だけでは設問・解答の論点を十分に確認できないため保留。原問題の追加確認が必要。"
+      },
+      {
+        "number": 26,
+        "topic": "視神経網膜炎",
+        "anchor": "26%E5%95%8F%EF%BC%9A%E8%A6%96%E7%A5%9E%E7%B5%8C%E7%B6%B2%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 27,
+        "topic": "結核",
+        "anchor": "27%E5%95%8F%EF%BC%9A%E7%B5%90%E6%A0%B8",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 28,
+        "topic": "眼白子症",
+        "anchor": "28%E5%95%8F%EF%BC%9A%E7%9C%BC%E7%99%BD%E5%AD%90%E7%97%87",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 29,
+        "topic": "大型弱視鏡",
+        "anchor": "29%E5%95%8F%EF%BC%9A%E5%A4%A7%E5%9E%8B%E5%BC%B1%E8%A6%96%E9%8F%A1",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 30,
+        "topic": "トリック法",
+        "anchor": "30%E5%95%8F%EF%BC%9A%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF%E6%B3%95",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 31,
+        "topic": "先天性上斜筋麻痺",
+        "anchor": "31%E5%95%8F%EF%BC%9A%E5%85%88%E5%A4%A9%E6%80%A7%E4%B8%8A%E6%96%9C%E7%AD%8B%E9%BA%BB%E7%97%BA",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 32,
+        "topic": "森実式",
+        "anchor": "32%E5%95%8F%EF%BC%9A%E6%A3%AE%E5%AE%9F%E5%BC%8F",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 33,
+        "topic": "甲状腺眼症",
+        "anchor": "33%E5%95%8F%EF%BC%9A%E7%94%B2%E7%8A%B6%E8%85%BA%E7%9C%BC%E7%97%87",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 34,
+        "topic": "アノマロスコープ",
+        "anchor": "34%E5%95%8F%EF%BC%9A%E3%82%A2%E3%83%8E%E3%83%9E%E3%83%AD%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 35,
+        "topic": "視野障害",
+        "anchor": "35%E5%95%8F%EF%BC%9A%E8%A6%96%E9%87%8E%E9%9A%9C%E5%AE%B3",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 36,
+        "topic": "von-Reckling Hausen病",
+        "anchor": "36%E5%95%8F%EF%BC%9Avon-Reckling_Hausen%E7%97%85",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 37,
+        "topic": "散瞳",
+        "anchor": "37%E5%95%8F%EF%BC%9A%E6%95%A3%E7%9E%B3",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 38,
+        "topic": "無痛性視力低下",
+        "anchor": "38%E5%95%8F%EF%BC%9A%E7%84%A1%E7%97%9B%E6%80%A7%E8%A6%96%E5%8A%9B%E4%BD%8E%E4%B8%8B",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 39,
+        "topic": "慢性進行性虹彩萎縮",
+        "anchor": "39%E5%95%8F%EF%BC%9A%E6%85%A2%E6%80%A7%E9%80%B2%E8%A1%8C%E6%80%A7%E8%99%B9%E5%BD%A9%E8%90%8E%E7%B8%AE",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 40,
+        "topic": "緑内障性視力障害",
+        "anchor": "40%E5%95%8F%EF%BC%9A%E7%B7%91%E5%86%85%E9%9A%9C%E6%80%A7%E8%A6%96%E5%8A%9B%E9%9A%9C%E5%AE%B3",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 41,
+        "topic": "ろ過手術後",
+        "anchor": "41%E5%95%8F%EF%BC%9A%E3%82%8D%E9%81%8E%E6%89%8B%E8%A1%93%E5%BE%8C",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 42,
+        "topic": "右心因性視力障害",
+        "anchor": "42%E5%95%8F%EF%BC%9A%E5%8F%B3%E5%BF%83%E5%9B%A0%E6%80%A7%E8%A6%96%E5%8A%9B%E9%9A%9C%E5%AE%B3",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 43,
+        "topic": "後天性Horner症候群",
+        "anchor": "43%E5%95%8F%EF%BC%9A%E5%BE%8C%E5%A4%A9%E6%80%A7Horner%E7%97%87%E5%80%99%E7%BE%A4",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 44,
+        "topic": "結膜黒色腫瘍",
+        "anchor": "44%E5%95%8F%EF%BC%9A%E7%B5%90%E8%86%9C%E9%BB%92%E8%89%B2%E8%85%AB%E7%98%8D",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 45,
+        "topic": "内皮移植後",
+        "anchor": "45%E5%95%8F%EF%BC%9A%E5%86%85%E7%9A%AE%E7%A7%BB%E6%A4%8D%E5%BE%8C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 46,
+        "topic": "翼状片オペ後",
+        "anchor": "46%E5%95%8F%EF%BC%9A%E7%BF%BC%E7%8A%B6%E7%89%87%E3%82%AA%E3%83%9A%E5%BE%8C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 47,
+        "topic": "プリザーフロマイクロシャント",
+        "anchor": "47%E5%95%8F%EF%BC%9A%E3%83%97%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%95%E3%83%AD%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%88",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 48,
+        "topic": "黄斑円孔網膜剥離",
+        "anchor": "48%E5%95%8F%EF%BC%9A%E9%BB%84%E6%96%91%E5%86%86%E5%AD%94%E7%B6%B2%E8%86%9C%E5%89%A5%E9%9B%A2",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 49,
+        "topic": "トラベクロトミー",
+        "anchor": "49%E5%95%8F%EF%BC%9A%E3%83%88%E3%83%A9%E3%83%99%E3%82%AF%E3%83%AD%E3%83%88%E3%83%9F%E3%83%BC",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 50,
+        "topic": "LSL",
+        "anchor": "50%E5%95%8F%EF%BC%9ALSL",
+        "status": "included",
+        "subject": "glaucoma"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "round": 37,
+    "paper": "ippan",
+    "url": "https://guchopoi.com/senmoni37-ippan/",
+    "items": [
+      {
+        "number": 1,
+        "topic": "結膜組織",
+        "anchor": "1%E5%95%8F%EF%BC%9A%E7%B5%90%E8%86%9C%E7%B5%84%E7%B9%94",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 2,
+        "topic": "涙腺",
+        "anchor": "2%E5%95%8F%EF%BC%9A%E6%B6%99%E8%85%BA",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 3,
+        "topic": "有機リン中毒",
+        "anchor": "3%E5%95%8F%EF%BC%9A%E6%9C%89%E6%A9%9F%E3%83%AA%E3%83%B3%E4%B8%AD%E6%AF%92",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 4,
+        "topic": "球後麻酔",
+        "anchor": "4%E5%95%8F%EF%BC%9A%E7%90%83%E5%BE%8C%E9%BA%BB%E9%85%94",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 5,
+        "topic": "角膜輪部周囲の解剖",
+        "anchor": "5%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E8%BC%AA%E9%83%A8%E5%91%A8%E5%9B%B2%E3%81%AE%E8%A7%A3%E5%89%96",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 6,
+        "topic": "脈絡膜の解剖",
+        "anchor": "6%E5%95%8F%EF%BC%9A%E8%84%88%E7%B5%A1%E8%86%9C%E3%81%AE%E8%A7%A3%E5%89%96",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 7,
+        "topic": "涙道の解剖",
+        "anchor": "7%E5%95%8F%EF%BC%9A%E6%B6%99%E9%81%93%E3%81%AE%E8%A7%A3%E5%89%96",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 8,
+        "topic": "未熟児の眼球パラメーター",
+        "anchor": "8%E5%95%8F%EF%BC%9A%E6%9C%AA%E7%86%9F%E5%85%90%E3%81%AE%E7%9C%BC%E7%90%83%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%83%BC",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 9,
+        "topic": "収差",
+        "anchor": "9%E5%95%8F%EF%BC%9A%E5%8F%8E%E5%B7%AE",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 10,
+        "topic": "外眼筋",
+        "anchor": "10%E5%95%8F%EF%BC%9A%E5%A4%96%E7%9C%BC%E7%AD%8B",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 11,
+        "topic": "眼圧",
+        "anchor": "11%E5%95%8F%EF%BC%9A%E7%9C%BC%E5%9C%A7",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 12,
+        "topic": "蛍光ブロック",
+        "anchor": "12%E5%95%8F%EF%BC%9A%E8%9B%8D%E5%85%89%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 13,
+        "topic": "毛様体剥離",
+        "anchor": "13%E5%95%8F%EF%BC%9A%E6%AF%9B%E6%A7%98%E4%BD%93%E5%89%A5%E9%9B%A2",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 14,
+        "topic": "イムノクロマト法",
+        "anchor": "14%E5%95%8F%EF%BC%9A%E3%82%A4%E3%83%A0%E3%83%8E%E3%82%AF%E3%83%AD%E3%83%9E%E3%83%88%E6%B3%95",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 15,
+        "topic": "身体障害者診断",
+        "anchor": "15%E5%95%8F%EF%BC%9A%E8%BA%AB%E4%BD%93%E9%9A%9C%E5%AE%B3%E8%80%85%E8%A8%BA%E6%96%AD",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 16,
+        "topic": "角膜ドナー",
+        "anchor": "16%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E3%83%89%E3%83%8A%E3%83%BC",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 17,
+        "topic": "保健所に届け出",
+        "anchor": "17%E5%95%8F%EF%BC%9A%E4%BF%9D%E5%81%A5%E6%89%80%E3%81%AB%E5%B1%8A%E3%81%91%E5%87%BA",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 18,
+        "topic": "介入研究",
+        "anchor": "18%E5%95%8F%EF%BC%9A%E4%BB%8B%E5%85%A5%E7%A0%94%E7%A9%B6",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 19,
+        "topic": "観察研究",
+        "anchor": "19%E5%95%8F%EF%BC%9A%E8%A6%B3%E5%AF%9F%E7%A0%94%E7%A9%B6",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 20,
+        "topic": "入院診療計画書",
+        "anchor": "20%E5%95%8F%EF%BC%9A%E5%85%A5%E9%99%A2%E8%A8%BA%E7%99%82%E8%A8%88%E7%94%BB%E6%9B%B8",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 21,
+        "topic": "難病",
+        "anchor": "21%E5%95%8F%EF%BC%9A%E9%9B%A3%E7%97%85",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 22,
+        "topic": "甲状腺眼症",
+        "anchor": "22%E5%95%8F%EF%BC%9A%E7%94%B2%E7%8A%B6%E8%85%BA%E7%9C%BC%E7%97%87",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 23,
+        "topic": "先天鼻涙管閉塞",
+        "anchor": "23%E5%95%8F%EF%BC%9A%E5%85%88%E5%A4%A9%E9%BC%BB%E6%B6%99%E7%AE%A1%E9%96%89%E5%A1%9E",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 24,
+        "topic": "涙道内視鏡",
+        "anchor": "24%E5%95%8F%EF%BC%9A%E6%B6%99%E9%81%93%E5%86%85%E8%A6%96%E9%8F%A1",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 25,
+        "topic": "流涙の原因",
+        "anchor": "25%E5%95%8F%EF%BC%9A%E6%B5%81%E6%B6%99%E3%81%AE%E5%8E%9F%E5%9B%A0",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 26,
+        "topic": "アレルギー性結膜炎",
+        "anchor": "26%E5%95%8F%EF%BC%9A%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%AE%E3%83%BC%E6%80%A7%E7%B5%90%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 27,
+        "topic": "細菌性結膜炎",
+        "anchor": "27%E5%95%8F%EF%BC%9A%E7%B4%B0%E8%8F%8C%E6%80%A7%E7%B5%90%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 28,
+        "topic": "結膜上皮について",
+        "anchor": "28%E5%95%8F%EF%BC%9A%E7%B5%90%E8%86%9C%E4%B8%8A%E7%9A%AE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 29,
+        "topic": "アトピー性角結膜炎",
+        "anchor": "29%E5%95%8F%EF%BC%9A%E3%82%A2%E3%83%88%E3%83%94%E3%83%BC%E6%80%A7%E8%A7%92%E7%B5%90%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 30,
+        "topic": "角膜周辺部の混濁",
+        "anchor": "30%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E5%91%A8%E8%BE%BA%E9%83%A8%E3%81%AE%E6%B7%B7%E6%BF%81",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 31,
+        "topic": "円錐角膜",
+        "anchor": "31%E5%95%8F%EF%BC%9A%E5%86%86%E9%8C%90%E8%A7%92%E8%86%9C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 32,
+        "topic": "角膜疾患と沈着物の組合せ",
+        "anchor": "32%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E7%96%BE%E6%82%A3%E3%81%A8%E6%B2%88%E7%9D%80%E7%89%A9%E3%81%AE%E7%B5%84%E5%90%88%E3%81%9B",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 33,
+        "topic": "角膜単純ヘルペス",
+        "anchor": "33%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E5%8D%98%E7%B4%94%E3%83%98%E3%83%AB%E3%83%9A%E3%82%B9",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 34,
+        "topic": "Fuchs角膜内皮ジストロフィ",
+        "anchor": "34%E5%95%8F%EF%BC%9AFuchs%E8%A7%92%E8%86%9C%E5%86%85%E7%9A%AE%E3%82%B8%E3%82%B9%E3%83%88%E3%83%AD%E3%83%95%E3%82%A3",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 35,
+        "topic": "PTKの適応",
+        "anchor": "35%E5%95%8F%EF%BC%9APTK%E3%81%AE%E9%81%A9%E5%BF%9C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 36,
+        "topic": "先天性の虹彩異常",
+        "anchor": "36%E5%95%8F%EF%BC%9A%E5%85%88%E5%A4%A9%E6%80%A7%E3%81%AE%E8%99%B9%E5%BD%A9%E7%95%B0%E5%B8%B8",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 37,
+        "topic": "梅毒性角膜炎",
+        "anchor": "37%E5%95%8F%EF%BC%9A%E6%A2%85%E6%AF%92%E6%80%A7%E8%A7%92%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 38,
+        "topic": "Peters異常",
+        "anchor": "38%E7%95%AA%EF%BC%9APeters%E7%95%B0%E5%B8%B8",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 39,
+        "topic": "睫毛乱生や睫毛内反",
+        "anchor": "39%E7%95%AA%EF%BC%9A%E7%9D%AB%E6%AF%9B%E4%B9%B1%E7%94%9F%E3%82%84%E7%9D%AB%E6%AF%9B%E5%86%85%E5%8F%8D",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 40,
+        "topic": "強膜炎",
+        "anchor": "40%E7%95%AA%EF%BC%9A%E5%BC%B7%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 41,
+        "topic": "FEVR",
+        "anchor": "41%E7%95%AA%EF%BC%9AFEVR",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 42,
+        "topic": "PFV, FEVRの鑑別",
+        "anchor": "42%E7%95%AA%EF%BC%9APFV_FEVR%E3%81%AE%E9%91%91%E5%88%A5",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 43,
+        "topic": "網膜の解剖",
+        "anchor": "43%E7%95%AA%EF%BC%9A%E7%B6%B2%E8%86%9C%E3%81%AE%E8%A7%A3%E5%89%96",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 44,
+        "topic": "AMD",
+        "anchor": "44%E7%95%AA%EF%BC%9AAMD",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 45,
+        "topic": "AMD診断基準",
+        "anchor": "45%E7%95%AA%EF%BC%9AAMD%E8%A8%BA%E6%96%AD%E5%9F%BA%E6%BA%96",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 46,
+        "topic": "AZOOR",
+        "anchor": "46%E7%95%AA%EF%BC%9AAZOOR",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 47,
+        "topic": "CSC",
+        "anchor": "47%E7%95%AA%EF%BC%9ACSC",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 48,
+        "topic": "網膜分離",
+        "anchor": "48%E7%95%AA%EF%BC%9A%E7%B6%B2%E8%86%9C%E5%88%86%E9%9B%A2",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 49,
+        "topic": "虐待",
+        "anchor": "49%E7%95%AA%EF%BC%9A%E8%99%90%E5%BE%85",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 50,
+        "topic": "標的黄斑",
+        "anchor": "50%E7%95%AA%EF%BC%9A%E6%A8%99%E7%9A%84%E9%BB%84%E6%96%91",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 51,
+        "topic": "網膜前出血",
+        "anchor": "51%E7%95%AA%EF%BC%9A%E7%B6%B2%E8%86%9C%E5%89%8D%E5%87%BA%E8%A1%80",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 52,
+        "topic": "MEWDS",
+        "anchor": "52%E7%95%AA%EF%BC%9AMEWDS",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 53,
+        "topic": "黄斑低形成",
+        "anchor": "53%E7%95%AA%EF%BC%9A%E9%BB%84%E6%96%91%E4%BD%8E%E5%BD%A2%E6%88%90",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 54,
+        "topic": "FAとOCTAの違い",
+        "anchor": "54%E7%95%AA%EF%BC%9AFA%E3%81%A8OCTA%E3%81%AE%E9%81%95%E3%81%84",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 55,
+        "topic": "結節性硬化症",
+        "anchor": "55%E7%95%AA%EF%BC%9A%E7%B5%90%E7%AF%80%E6%80%A7%E7%A1%AC%E5%8C%96%E7%97%87",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 56,
+        "topic": "ヒドロキシクロロキン",
+        "anchor": "56%E7%95%AA%EF%BC%9A%E3%83%92%E3%83%89%E3%83%AD%E3%82%AD%E3%82%B7%E3%82%AF%E3%83%AD%E3%83%AD%E3%82%AD%E3%83%B3",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 57,
+        "topic": "裂孔原性網膜剥離",
+        "anchor": "57%E7%95%AA%EF%BC%9A%E8%A3%82%E5%AD%94%E5%8E%9F%E6%80%A7%E7%B6%B2%E8%86%9C%E5%89%A5%E9%9B%A2",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 58,
+        "topic": "ベーチェット病",
+        "anchor": "58%E7%95%AA%EF%BC%9A%E3%83%99%E3%83%BC%E3%83%81%E3%82%A7%E3%83%83%E3%83%88%E7%97%85",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 59,
+        "topic": "前房蓄膿",
+        "anchor": "59%E7%95%AA%EF%BC%9A%E5%89%8D%E6%88%BF%E8%93%84%E8%86%BF",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 60,
+        "topic": "急性前部ぶどう膜炎",
+        "anchor": "60%E7%95%AA%EF%BC%9A%E6%80%A5%E6%80%A7%E5%89%8D%E9%83%A8%E3%81%B6%E3%81%A9%E3%81%86%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 61,
+        "topic": "可溶性IL-2R抗体",
+        "anchor": "61%E7%95%AA%EF%BC%9A%E5%8F%AF%E6%BA%B6%E6%80%A7IL-2R%E6%8A%97%E4%BD%93",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 62,
+        "topic": "転移性脈絡膜腫瘍",
+        "anchor": "62%E7%95%AA%EF%BC%9A%E8%BB%A2%E7%A7%BB%E6%80%A7%E8%84%88%E7%B5%A1%E8%86%9C%E8%85%AB%E7%98%8D",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 63,
+        "topic": "白内障を発症する疾患",
+        "anchor": "63%E7%95%AA%EF%BC%9A%E7%99%BD%E5%86%85%E9%9A%9C%E3%82%92%E7%99%BA%E7%97%87%E3%81%99%E3%82%8B%E7%96%BE%E6%82%A3",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 64,
+        "topic": "角膜混濁",
+        "anchor": "64%E7%95%AA%EF%BC%9A%E8%A7%92%E8%86%9C%E6%B7%B7%E6%BF%81",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 65,
+        "topic": "重症筋無力症",
+        "anchor": "65%E7%95%AA%EF%BC%9A%E9%87%8D%E7%97%87%E7%AD%8B%E7%84%A1%E5%8A%9B%E7%97%87",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 66,
+        "topic": "Far gradient法",
+        "anchor": "66%E7%95%AA%EF%BC%9AFar_gradient%E6%B3%95",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 67,
+        "topic": "アトロピン点眼",
+        "anchor": "67%E7%95%AA%EF%BC%9A%E3%82%A2%E3%83%88%E3%83%AD%E3%83%94%E3%83%B3%E7%82%B9%E7%9C%BC",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 68,
+        "topic": "hirschberg法",
+        "anchor": "68%E7%95%AA%EF%BC%9Ahirschberg%E6%B3%95",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 69,
+        "topic": "Faden法",
+        "anchor": "69%E7%95%AA%EF%BC%9AFaden%E6%B3%95",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 70,
+        "topic": "2歳児の両眼視機能検査",
+        "anchor": "70%E7%95%AA%EF%BC%9A2%E6%AD%B3%E5%85%90%E3%81%AE%E4%B8%A1%E7%9C%BC%E8%A6%96%E6%A9%9F%E8%83%BD%E6%A4%9C%E6%9F%BB",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 71,
+        "topic": "斜位の検査",
+        "anchor": "71%E7%95%AA%EF%BC%9A%E6%96%9C%E4%BD%8D%E3%81%AE%E6%A4%9C%E6%9F%BB",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 72,
+        "topic": "小児弱視治療用眼鏡",
+        "anchor": "72%E7%95%AA%EF%BC%9A%E5%B0%8F%E5%85%90%E5%BC%B1%E8%A6%96%E6%B2%BB%E7%99%82%E7%94%A8%E7%9C%BC%E9%8F%A1",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 73,
+        "topic": "交代性上斜位",
+        "anchor": "73%E7%95%AA%EF%BC%9A%E4%BA%A4%E4%BB%A3%E6%80%A7%E4%B8%8A%E6%96%9C%E4%BD%8D",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 74,
+        "topic": "第一次視覚野の障害",
+        "anchor": "74%E7%95%AA%EF%BC%9A%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A6%96%E8%A6%9A%E9%87%8E%E3%81%AE%E9%9A%9C%E5%AE%B3",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 75,
+        "topic": "Fisher症候群",
+        "anchor": "75%E7%95%AA%EF%BC%9AFisher%E7%97%87%E5%80%99%E7%BE%A4",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 76,
+        "topic": "神経原性麻痺性斜視",
+        "anchor": "76%E7%95%AA%EF%BC%9A%E7%A5%9E%E7%B5%8C%E5%8E%9F%E6%80%A7%E9%BA%BB%E7%97%BA%E6%80%A7%E6%96%9C%E8%A6%96",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 77,
+        "topic": "ミトコンドリア病",
+        "anchor": "77%E7%95%AA%EF%BC%9A%E3%83%9F%E3%83%88%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AA%E3%82%A2%E7%97%85",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 78,
+        "topic": "RAPD",
+        "anchor": "78%E7%95%AA%EF%BC%9ARAPD",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 79,
+        "topic": "妊娠中の緑内障点眼",
+        "anchor": "79%E7%95%AA%EF%BC%9A%E5%A6%8A%E5%A8%A0%E4%B8%AD%E3%81%AE%E7%B7%91%E5%86%85%E9%9A%9C%E7%82%B9%E7%9C%BC",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 80,
+        "topic": "開放隅角緑内障",
+        "anchor": "80%E7%95%AA%EF%BC%9A%E9%96%8B%E6%94%BE%E9%9A%85%E8%A7%92%E7%B7%91%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 81,
+        "topic": "SLT",
+        "anchor": "81%E7%95%AA%EF%BC%9ASLT",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 82,
+        "topic": "緑内障の進行評価",
+        "anchor": "82%E7%95%AA%EF%BC%9A%E7%B7%91%E5%86%85%E9%9A%9C%E3%81%AE%E9%80%B2%E8%A1%8C%E8%A9%95%E4%BE%A1",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 83,
+        "topic": "閉塞隅角緑内障",
+        "anchor": "83%E7%95%AA%EF%BC%9A%E9%96%89%E5%A1%9E%E9%9A%85%E8%A7%92%E7%B7%91%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 84,
+        "topic": "悪性緑内障",
+        "anchor": "84%E7%95%AA%EF%BC%9A%E6%82%AA%E6%80%A7%E7%B7%91%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 85,
+        "topic": "緑内障点眼と副作用",
+        "anchor": "85%E7%95%AA%EF%BC%9A%E7%B7%91%E5%86%85%E9%9A%9C%E7%82%B9%E7%9C%BC%E3%81%A8%E5%89%AF%E4%BD%9C%E7%94%A8",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 86,
+        "topic": "外傷性視神経症",
+        "anchor": "86%E7%95%AA%EF%BC%9A%E5%A4%96%E5%82%B7%E6%80%A7%E8%A6%96%E7%A5%9E%E7%B5%8C%E7%97%87",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 87,
+        "topic": "Purtscher外傷性網膜症",
+        "anchor": "87%E7%95%AA%EF%BC%9APurtscher%E5%A4%96%E5%82%B7%E6%80%A7%E7%B6%B2%E8%86%9C%E7%97%87",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 88,
+        "topic": "コンタクトレンズについて",
+        "anchor": "88%E7%95%AA%EF%BC%9A%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E3%83%AC%E3%83%B3%E3%82%BA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 89,
+        "topic": "水晶体温存硝子体手術",
+        "anchor": "89%E7%95%AA%EF%BC%9A%E6%B0%B4%E6%99%B6%E4%BD%93%E6%B8%A9%E5%AD%98%E7%A1%9D%E5%AD%90%E4%BD%93%E6%89%8B%E8%A1%93",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 90,
+        "topic": "プリオン感染",
+        "anchor": "90%E7%95%AA%EF%BC%9A%E3%83%97%E3%83%AA%E3%82%AA%E3%83%B3%E6%84%9F%E6%9F%93",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 91,
+        "topic": "涙小管断裂",
+        "anchor": "91%E5%95%8F%EF%BC%9A%E6%B6%99%E5%B0%8F%E7%AE%A1%E6%96%AD%E8%A3%82",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 92,
+        "topic": "換算屈折率",
+        "anchor": "92%E5%95%8F%EF%BC%9A%E6%8F%9B%E7%AE%97%E5%B1%88%E6%8A%98%E7%8E%87",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 93,
+        "topic": "DALK適応",
+        "anchor": "93%E5%95%8F%EF%BC%9ADALK%E9%81%A9%E5%BF%9C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 94,
+        "topic": "IFIS",
+        "anchor": "94%E5%95%8F%EF%BC%9AIFIS",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 95,
+        "topic": "バックル後の眼球運動障害",
+        "anchor": "95%E5%95%8F%EF%BC%9A%E3%83%90%E3%83%83%E3%82%AF%E3%83%AB%E5%BE%8C%E3%81%AE%E7%9C%BC%E7%90%83%E9%81%8B%E5%8B%95%E9%9A%9C%E5%AE%B3",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 96,
+        "topic": "緑内障手術",
+        "anchor": "96%E5%95%8F%EF%BC%9A%E7%B7%91%E5%86%85%E9%9A%9C%E6%89%8B%E8%A1%93",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 97,
+        "topic": "タンポナーデ材",
+        "anchor": "97%E5%95%8F%EF%BC%9A%E3%82%BF%E3%83%B3%E3%83%9D%E3%83%8A%E3%83%BC%E3%83%87%E6%9D%90",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 98,
+        "topic": "気体網膜復位術",
+        "anchor": "98%E5%95%8F%EF%BC%9A%E6%B0%97%E4%BD%93%E7%B6%B2%E8%86%9C%E5%BE%A9%E4%BD%8D%E8%A1%93",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 99,
+        "topic": "眼球摘出",
+        "anchor": "99%E5%95%8F%EF%BC%9A%E7%9C%BC%E7%90%83%E6%91%98%E5%87%BA",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 100,
+        "topic": "結膜切開を行う緑内障手術",
+        "anchor": "100%E5%95%8F%EF%BC%9A%E7%B5%90%E8%86%9C%E5%88%87%E9%96%8B%E3%82%92%E8%A1%8C%E3%81%86%E7%B7%91%E5%86%85%E9%9A%9C%E6%89%8B%E8%A1%93",
+        "status": "included",
+        "subject": "glaucoma"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "round": 37,
+    "paper": "rinsyo",
+    "url": "https://guchopoi.com/senmoni37-rinsyo/",
+    "items": [
+      {
+        "number": 1,
+        "topic": "眼トキソプラズマ",
+        "anchor": "1%E5%95%8F%EF%BC%9A%E7%9C%BC%E3%83%88%E3%82%AD%E3%82%BD%E3%83%97%E3%83%A9%E3%82%BA%E3%83%9E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 2,
+        "topic": "視野の問題",
+        "anchor": "2%E5%95%8F%EF%BC%9A%E8%A6%96%E9%87%8E%E3%81%AE%E5%95%8F%E9%A1%8C",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 3,
+        "topic": "箱ヒゲ図",
+        "anchor": "3%E5%95%8F%EF%BC%9A%E7%AE%B1%E3%83%92%E3%82%B2%E5%9B%B3",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 4,
+        "topic": "カプランマイヤー曲線",
+        "anchor": "4%E5%95%8F%EF%BC%9A%E3%82%AB%E3%83%97%E3%83%A9%E3%83%B3%E3%83%9E%E3%82%A4%E3%83%A4%E3%83%BC%E6%9B%B2%E7%B7%9A",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 5,
+        "topic": "特異度",
+        "anchor": "5%E5%95%8F%EF%BC%9A%E7%89%B9%E7%95%B0%E5%BA%A6",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 6,
+        "topic": "眼窩底骨折",
+        "anchor": "6%E5%95%8F%EF%BC%9A%E7%9C%BC%E7%AA%A9%E5%BA%95%E9%AA%A8%E6%8A%98",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 7,
+        "topic": "バックル",
+        "anchor": "7%E5%95%8F%EF%BC%9A%E3%83%90%E3%83%83%E3%82%AF%E3%83%AB",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 8,
+        "topic": "涙嚢腫瘍",
+        "anchor": "8%E5%95%8F%EF%BC%9A%E6%B6%99%E5%9A%A2%E8%85%AB%E7%98%8D",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 9,
+        "topic": "涙小管炎",
+        "anchor": "9%E5%95%8F%EF%BC%9A%E6%B6%99%E5%B0%8F%E7%AE%A1%E7%82%8E",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 10,
+        "topic": "春季カタル",
+        "anchor": "10%E5%95%8F%EF%BC%9A%E6%98%A5%E5%AD%A3%E3%82%AB%E3%82%BF%E3%83%AB",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 11,
+        "topic": "角膜障害",
+        "anchor": "11%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E9%9A%9C%E5%AE%B3",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 12,
+        "topic": "動脈瘤破裂？",
+        "anchor": "12%E5%95%8F%EF%BC%9A%E5%8B%95%E8%84%88%E7%98%A4%E7%A0%B4%E8%A3%82%EF%BC%9F",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 13,
+        "topic": "クリスタリン網膜症",
+        "anchor": "13%E5%95%8F%EF%BC%9A%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AA%E3%83%B3%E7%B6%B2%E8%86%9C%E7%97%87",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 14,
+        "topic": "type3 MNV",
+        "anchor": "14%E5%95%8F%EF%BC%9Atype3_MNV",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 15,
+        "topic": "未熟児網膜症連問",
+        "anchor": "15%E5%95%8F%EF%BC%9A%E6%9C%AA%E7%86%9F%E5%85%90%E7%B6%B2%E8%86%9C%E7%97%87%E9%80%A3%E5%95%8F",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 16,
+        "topic": "未熟児網膜症連問",
+        "anchor": "16%E5%95%8F%EF%BC%9A%E6%9C%AA%E7%86%9F%E5%85%90%E7%B6%B2%E8%86%9C%E7%97%87%E9%80%A3%E5%95%8F",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 17,
+        "topic": "網膜分離",
+        "anchor": "17%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E5%88%86%E9%9B%A2",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 18,
+        "topic": "Best病",
+        "anchor": "18%E5%95%8F%EF%BC%9ABest%E7%97%85",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 19,
+        "topic": "大視症",
+        "anchor": "19%E5%95%8F%EF%BC%9A%E5%A4%A7%E8%A6%96%E7%97%87",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 20,
+        "topic": "脈絡膜血管腫",
+        "anchor": "20%E5%95%8F%EF%BC%9A%E8%84%88%E7%B5%A1%E8%86%9C%E8%A1%80%E7%AE%A1%E8%85%AB",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 21,
+        "topic": "悪性リンパ腫",
+        "anchor": "21%E5%95%8F%EF%BC%9A%E6%82%AA%E6%80%A7%E3%83%AA%E3%83%B3%E3%83%91%E8%85%AB",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 22,
+        "topic": "不同視",
+        "anchor": "22%E5%95%8F%EF%BC%9A%E4%B8%8D%E5%90%8C%E8%A6%96",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 23,
+        "topic": "輪部デルモイド",
+        "anchor": "23%E5%95%8F%EF%BC%9A%E8%BC%AA%E9%83%A8%E3%83%87%E3%83%AB%E3%83%A2%E3%82%A4%E3%83%89",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 24,
+        "topic": "複視治療",
+        "anchor": "24%E5%95%8F%EF%BC%9A%E8%A4%87%E8%A6%96%E6%B2%BB%E7%99%82",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 25,
+        "topic": "上斜筋麻痺",
+        "anchor": "25%E5%95%8F%EF%BC%9A%E4%B8%8A%E6%96%9C%E7%AD%8B%E9%BA%BB%E7%97%BA",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 26,
+        "topic": "色覚異常",
+        "anchor": "26%E5%95%8F%EF%BC%9A%E8%89%B2%E8%A6%9A%E7%95%B0%E5%B8%B8",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 27,
+        "topic": "視神経炎",
+        "anchor": "27%E5%95%8F%EF%BC%9A%E8%A6%96%E7%A5%9E%E7%B5%8C%E7%82%8E",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 28,
+        "topic": "虚血性視神経症",
+        "anchor": "28%E5%95%8F%EF%BC%9A%E8%99%9A%E8%A1%80%E6%80%A7%E8%A6%96%E7%A5%9E%E7%B5%8C%E7%97%87",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 29,
+        "topic": "甲状腺眼症",
+        "anchor": "29%E5%95%8F%EF%BC%9A%E7%94%B2%E7%8A%B6%E8%85%BA%E7%9C%BC%E7%97%87",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 30,
+        "topic": "ねこひっかき病",
+        "anchor": "30%E5%95%8F%EF%BC%9A%E3%81%AD%E3%81%93%E3%81%B2%E3%81%A3%E3%81%8B%E3%81%8D%E7%97%85",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 31,
+        "topic": "陳旧性瞳孔緊張症",
+        "anchor": "31%E5%95%8F%EF%BC%9A%E9%99%B3%E6%97%A7%E6%80%A7%E7%9E%B3%E5%AD%94%E7%B7%8A%E5%BC%B5%E7%97%87",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 32,
+        "topic": "両耳側半盲",
+        "anchor": "32%E5%95%8F%EF%BC%9A%E4%B8%A1%E8%80%B3%E5%81%B4%E5%8D%8A%E7%9B%B2",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 33,
+        "topic": "隅角鏡",
+        "anchor": "33%E5%95%8F%EF%BC%9A%E9%9A%85%E8%A7%92%E9%8F%A1",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 34,
+        "topic": "緑内障",
+        "anchor": "34%E5%95%8F%EF%BC%9A%E7%B7%91%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 35,
+        "topic": "眼虚血症候群",
+        "anchor": "35%E5%95%8F%EF%BC%9A%E7%9C%BC%E8%99%9A%E8%A1%80%E7%97%87%E5%80%99%E7%BE%A4",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 36,
+        "topic": "隅角所見",
+        "anchor": "36%E5%95%8F%EF%BC%9A%E9%9A%85%E8%A7%92%E6%89%80%E8%A6%8B",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 37,
+        "topic": "異物",
+        "anchor": "37%E5%95%8F%EF%BC%9A%E7%95%B0%E7%89%A9",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 38,
+        "topic": "ガス白内障",
+        "anchor": "38%E5%95%8F%EF%BC%9A%E3%82%AC%E3%82%B9%E7%99%BD%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 39,
+        "topic": "外傷性黄斑円孔",
+        "anchor": "39%E5%95%8F%EF%BC%9A%E5%A4%96%E5%82%B7%E6%80%A7%E9%BB%84%E6%96%91%E5%86%86%E5%AD%94",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 40,
+        "topic": "キノロン耐性コリネバクテリウム",
+        "anchor": "40%E5%95%8F%EF%BC%9A%E3%82%AD%E3%83%8E%E3%83%AD%E3%83%B3%E8%80%90%E6%80%A7%E3%82%B3%E3%83%AA%E3%83%8D%E3%83%90%E3%82%AF%E3%83%86%E3%83%AA%E3%82%A6%E3%83%A0",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 41,
+        "topic": "涙嚢炎",
+        "anchor": "41%E5%95%8F%EF%BC%9A%E6%B6%99%E5%9A%A2%E7%82%8E",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 42,
+        "topic": "先天性涙嚢ヘルニア",
+        "anchor": "42%E5%95%8F%EF%BC%9A%E5%85%88%E5%A4%A9%E6%80%A7%E6%B6%99%E5%9A%A2%E3%83%98%E3%83%AB%E3%83%8B%E3%82%A2",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 43,
+        "topic": "翼状片手術",
+        "anchor": "43%E5%95%8F%EF%BC%9A%E7%BF%BC%E7%8A%B6%E7%89%87%E6%89%8B%E8%A1%93",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 44,
+        "topic": "LASIK後",
+        "anchor": "44%E5%95%8F%EF%BC%9ALASIK%E5%BE%8C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 45,
+        "topic": "上皮幹細胞疲弊症",
+        "anchor": "45%E5%95%8F%EF%BC%9A%E4%B8%8A%E7%9A%AE%E5%B9%B9%E7%B4%B0%E8%83%9E%E7%96%B2%E5%BC%8A%E7%97%87",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 46,
+        "topic": "角膜移植後",
+        "anchor": "46%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E7%A7%BB%E6%A4%8D%E5%BE%8C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 47,
+        "topic": "角膜移植",
+        "anchor": "47%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E7%A7%BB%E6%A4%8D",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 48,
+        "topic": "バックル",
+        "anchor": "48%E5%95%8F%EF%BC%9A%E3%83%90%E3%83%83%E3%82%AF%E3%83%AB",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 49,
+        "topic": "毛様体剥離",
+        "anchor": "49%E5%95%8F%EF%BC%9A%E6%AF%9B%E6%A7%98%E4%BD%93%E5%89%A5%E9%9B%A2",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 50,
+        "topic": "小眼球",
+        "anchor": "50%E5%95%8F%EF%BC%9A%E5%B0%8F%E7%9C%BC%E7%90%83",
+        "status": "included",
+        "subject": "glaucoma"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "round": 36,
+    "paper": "ippan",
+    "url": "https://guchopoi.com/senmoni36-ippan/",
+    "items": [
+      {
+        "number": 1,
+        "topic": "核上性眼球運動",
+        "anchor": "1%E5%95%8F%EF%BC%9A%E6%A0%B8%E4%B8%8A%E6%80%A7%E7%9C%BC%E7%90%83%E9%81%8B%E5%8B%95",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 2,
+        "topic": "硝子体の加齢変化",
+        "anchor": "2%E5%95%8F%EF%BC%9A%E7%A1%9D%E5%AD%90%E4%BD%93%E3%81%AE%E5%8A%A0%E9%BD%A2%E5%A4%89%E5%8C%96",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 3,
+        "topic": "視神経について",
+        "anchor": "3%E5%95%8F%EF%BC%9A%E8%A6%96%E7%A5%9E%E7%B5%8C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 4,
+        "topic": "房水について",
+        "anchor": "4%E5%95%8F%EF%BC%9A%E6%88%BF%E6%B0%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 5,
+        "topic": "アトロピンについて",
+        "anchor": "5%E5%95%8F%EF%BC%9A%E3%82%A2%E3%83%88%E3%83%AD%E3%83%94%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 6,
+        "topic": "発生",
+        "anchor": "6%E5%95%8F%EF%BC%9A%E7%99%BA%E7%94%9F",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 7,
+        "topic": "網膜色素上皮機能を反映する検査",
+        "anchor": "7%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E8%89%B2%E7%B4%A0%E4%B8%8A%E7%9A%AE%E6%A9%9F%E8%83%BD%E3%82%92%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B%E6%A4%9C%E6%9F%BB",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 8,
+        "topic": "脈絡膜の解剖",
+        "anchor": "8%E5%95%8F%EF%BC%9A%E8%84%88%E7%B5%A1%E8%86%9C%E3%81%AE%E8%A7%A3%E5%89%96",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 9,
+        "topic": "眼圧について",
+        "anchor": "9%E5%95%8F%EF%BC%9A%E7%9C%BC%E5%9C%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 10,
+        "topic": "ランドルト環の切れ目",
+        "anchor": "10%E5%95%8F%EF%BC%9A%E3%83%A9%E3%83%B3%E3%83%89%E3%83%AB%E3%83%88%E7%92%B0%E3%81%AE%E5%88%87%E3%82%8C%E7%9B%AE",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 11,
+        "topic": "眼底画像検査",
+        "anchor": "11%E5%95%8F%EF%BC%9A%E7%9C%BC%E5%BA%95%E7%94%BB%E5%83%8F%E6%A4%9C%E6%9F%BB",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 12,
+        "topic": "交差支配を受ける外眼筋",
+        "anchor": "12%E5%95%8F%EF%BC%9A%E4%BA%A4%E5%B7%AE%E6%94%AF%E9%85%8D%E3%82%92%E5%8F%97%E3%81%91%E3%82%8B%E5%A4%96%E7%9C%BC%E7%AD%8B",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 13,
+        "topic": "倫理審査委員会",
+        "anchor": "13%E5%95%8F%EF%BC%9A%E5%80%AB%E7%90%86%E5%AF%A9%E6%9F%BB%E5%A7%94%E5%93%A1%E4%BC%9A",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 14,
+        "topic": "入院診療計画書",
+        "anchor": "14%E5%95%8F%EF%BC%9A%E5%85%A5%E9%99%A2%E8%A8%BA%E7%99%82%E8%A8%88%E7%94%BB%E6%9B%B8",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 15,
+        "topic": "身体障害者診断書・意見書",
+        "anchor": "15%E5%95%8F%EF%BC%9A%E8%BA%AB%E4%BD%93%E9%9A%9C%E5%AE%B3%E8%80%85%E8%A8%BA%E6%96%AD%E6%9B%B8%E3%83%BB%E6%84%8F%E8%A6%8B%E6%9B%B8",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 16,
+        "topic": "角膜ドナーの適応",
+        "anchor": "16%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E3%83%89%E3%83%8A%E3%83%BC%E3%81%AE%E9%81%A9%E5%BF%9C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 17,
+        "topic": "特定健康診断",
+        "anchor": "17%E5%95%8F%EF%BC%9A%E7%89%B9%E5%AE%9A%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%96%AD",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 18,
+        "topic": "電離放射線障害防止規則",
+        "anchor": "18%E5%95%8F%EF%BC%9A%E9%9B%BB%E9%9B%A2%E6%94%BE%E5%B0%84%E7%B7%9A%E9%9A%9C%E5%AE%B3%E9%98%B2%E6%AD%A2%E8%A6%8F%E5%89%87",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 19,
+        "topic": "スクリーニング検査",
+        "anchor": "19%E5%95%8F%EF%BC%9A%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E6%A4%9C%E6%9F%BB",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 20,
+        "topic": "特定臨床研究",
+        "anchor": "20%E5%95%8F%EF%BC%9A%E7%89%B9%E5%AE%9A%E8%87%A8%E5%BA%8A%E7%A0%94%E7%A9%B6",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 21,
+        "topic": "普通自動車第一種運転免許",
+        "anchor": "21%E5%95%8F%EF%BC%9A%E6%99%AE%E9%80%9A%E8%87%AA%E5%8B%95%E8%BB%8A%E7%AC%AC%E4%B8%80%E7%A8%AE%E9%81%8B%E8%BB%A2%E5%85%8D%E8%A8%B1",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 22,
+        "topic": "涙腺と涙液",
+        "anchor": "22%E5%95%8F%EF%BC%9A%E6%B6%99%E8%85%BA%E3%81%A8%E6%B6%99%E6%B6%B2",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 23,
+        "topic": "涙道疾患",
+        "anchor": "23%E5%95%8F%EF%BC%9A%E6%B6%99%E9%81%93%E7%96%BE%E6%82%A3",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 24,
+        "topic": "新生児の眼脂",
+        "anchor": "24%E5%95%8F%EF%BC%9A%E6%96%B0%E7%94%9F%E5%85%90%E3%81%AE%E7%9C%BC%E8%84%82",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 25,
+        "topic": "ステロイドによる眼圧上昇",
+        "anchor": "25%E5%95%8F%EF%BC%9A%E3%82%B9%E3%83%86%E3%83%AD%E3%82%A4%E3%83%89%E3%81%AB%E3%82%88%E3%82%8B%E7%9C%BC%E5%9C%A7%E4%B8%8A%E6%98%87",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 26,
+        "topic": "アトピー性角結膜炎",
+        "anchor": "26%E5%95%8F%EF%BC%9A%E3%82%A2%E3%83%88%E3%83%94%E3%83%BC%E6%80%A7%E8%A7%92%E7%B5%90%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 27,
+        "topic": "渦状の角膜混濁",
+        "anchor": "27%E5%95%8F%EF%BC%9A%E6%B8%A6%E7%8A%B6%E3%81%AE%E8%A7%92%E8%86%9C%E6%B7%B7%E6%BF%81",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 28,
+        "topic": "強膜炎",
+        "anchor": "28%E5%95%8F%EF%BC%9A%E5%BC%B7%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 29,
+        "topic": "角膜新生血管",
+        "anchor": "29%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E6%96%B0%E7%94%9F%E8%A1%80%E7%AE%A1",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 30,
+        "topic": "角膜神経",
+        "anchor": "30%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E7%A5%9E%E7%B5%8C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 31,
+        "topic": "糖尿病の水晶体変化",
+        "anchor": "31%E5%95%8F%EF%BC%9A%E7%B3%96%E5%B0%BF%E7%97%85%E3%81%AE%E6%B0%B4%E6%99%B6%E4%BD%93%E5%A4%89%E5%8C%96",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 32,
+        "topic": "水晶体偏位を合併する疾患",
+        "anchor": "32%E5%95%8F%EF%BC%9A%E6%B0%B4%E6%99%B6%E4%BD%93%E5%81%8F%E4%BD%8D%E3%82%92%E5%90%88%E4%BD%B5%E3%81%99%E3%82%8B%E7%96%BE%E6%82%A3",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 33,
+        "topic": "網膜血管炎",
+        "anchor": "33%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E8%A1%80%E7%AE%A1%E7%82%8E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 34,
+        "topic": "網膜色素上皮下の黄白色病変",
+        "anchor": "34%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E8%89%B2%E7%B4%A0%E4%B8%8A%E7%9A%AE%E4%B8%8B%E3%81%AE%E9%BB%84%E7%99%BD%E8%89%B2%E7%97%85%E5%A4%89",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 35,
+        "topic": "網膜ひだ",
+        "anchor": "35%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E3%81%B2%E3%81%A0",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 36,
+        "topic": "PIC",
+        "anchor": "36%E5%95%8F%EF%BC%9APIC",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 37,
+        "topic": "血管腫",
+        "anchor": "37%E5%95%8F%EF%BC%9A%E8%A1%80%E7%AE%A1%E8%85%AB",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 38,
+        "topic": "糖尿病黄斑浮腫",
+        "anchor": "38%E5%95%8F%EF%BC%9A%E7%B3%96%E5%B0%BF%E7%97%85%E9%BB%84%E6%96%91%E6%B5%AE%E8%85%AB",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 39,
+        "topic": "高安動脈炎",
+        "anchor": "39%E5%95%8F%EF%BC%9A%E9%AB%98%E5%AE%89%E5%8B%95%E8%84%88%E7%82%8E",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 40,
+        "topic": "未熟児網膜症に対する抗VEGF薬",
+        "anchor": "40%E5%95%8F%EF%BC%9A%E6%9C%AA%E7%86%9F%E5%85%90%E7%B6%B2%E8%86%9C%E7%97%87%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E6%8A%97VEGF%E8%96%AC",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 41,
+        "topic": "未熟児網膜症の治療",
+        "anchor": "41%E5%95%8F%EF%BC%9A%E6%9C%AA%E7%86%9F%E5%85%90%E7%B6%B2%E8%86%9C%E7%97%87%E3%81%AE%E6%B2%BB%E7%99%82",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 42,
+        "topic": "網膜色素変性症に伴う白内障",
+        "anchor": "42%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E8%89%B2%E7%B4%A0%E5%A4%89%E6%80%A7%E7%97%87%E3%81%AB%E4%BC%B4%E3%81%86%E7%99%BD%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 43,
+        "topic": "黄斑前膜",
+        "anchor": "43%E5%95%8F%EF%BC%9A%E9%BB%84%E6%96%91%E5%89%8D%E8%86%9C",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 44,
+        "topic": "網膜色素上皮裂孔",
+        "anchor": "44%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E8%89%B2%E7%B4%A0%E4%B8%8A%E7%9A%AE%E8%A3%82%E5%AD%94",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 45,
+        "topic": "ステロイド合併症",
+        "anchor": "45%E5%95%8F%EF%BC%9A%E3%82%B9%E3%83%86%E3%83%AD%E3%82%A4%E3%83%89%E5%90%88%E4%BD%B5%E7%97%87",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 46,
+        "topic": "von Hippel-Lindau病",
+        "anchor": "46%E5%95%8F%EF%BC%9Avon_Hippel-Lindau%E7%97%85",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 47,
+        "topic": "黄斑部毛細血管拡張症",
+        "anchor": "47%E5%95%8F%EF%BC%9A%E9%BB%84%E6%96%91%E9%83%A8%E6%AF%9B%E7%B4%B0%E8%A1%80%E7%AE%A1%E6%8B%A1%E5%BC%B5%E7%97%87",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 48,
+        "topic": "病的近視の合併症",
+        "anchor": "48%E5%95%8F%EF%BC%9A%E7%97%85%E7%9A%84%E8%BF%91%E8%A6%96%E3%81%AE%E5%90%88%E4%BD%B5%E7%97%87",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 49,
+        "topic": "黄斑ジストロフィ",
+        "anchor": "49%E5%95%8F%EF%BC%9A%E9%BB%84%E6%96%91%E3%82%B8%E3%82%B9%E3%83%88%E3%83%AD%E3%83%95%E3%82%A3",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 50,
+        "topic": "疾患と所見の組み合わせ",
+        "anchor": "50%E5%95%8F%EF%BC%9A%E7%96%BE%E6%82%A3%E3%81%A8%E6%89%80%E8%A6%8B%E3%81%AE%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 51,
+        "topic": "内因性眼内炎",
+        "anchor": "51%E5%95%8F%EF%BC%9A%E5%86%85%E5%9B%A0%E6%80%A7%E7%9C%BC%E5%86%85%E7%82%8E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 52,
+        "topic": "結核",
+        "anchor": "52%E5%95%8F%EF%BC%9A%E7%B5%90%E6%A0%B8",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 53,
+        "topic": "梅毒性ぶどう膜炎",
+        "anchor": "53%E5%95%8F%EF%BC%9A%E6%A2%85%E6%AF%92%E6%80%A7%E3%81%B6%E3%81%A9%E3%81%86%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 54,
+        "topic": "Marfan症候群",
+        "anchor": "54%E5%95%8F%EF%BC%9AMarfan%E7%97%87%E5%80%99%E7%BE%A4",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 55,
+        "topic": "ミトコンドリア遺伝子異常",
+        "anchor": "55%E5%95%8F%EF%BC%9A%E3%83%9F%E3%83%88%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AA%E3%82%A2%E9%81%BA%E4%BC%9D%E5%AD%90%E7%95%B0%E5%B8%B8",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 56,
+        "topic": "乱視を軽減する方法",
+        "anchor": "56%E5%95%8F%EF%BC%9A%E4%B9%B1%E8%A6%96%E3%82%92%E8%BB%BD%E6%B8%9B%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 57,
+        "topic": "調節ラグ",
+        "anchor": "57%E5%95%8F%EF%BC%9A%E8%AA%BF%E7%AF%80%E3%83%A9%E3%82%B0",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 58,
+        "topic": "残余乱視",
+        "anchor": "58%E5%95%8F%EF%BC%9A%E6%AE%8B%E4%BD%99%E4%B9%B1%E8%A6%96",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 59,
+        "topic": "検影法",
+        "anchor": "59%E5%95%8F%EF%BC%9A%E6%A4%9C%E5%BD%B1%E6%B3%95",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 60,
+        "topic": "オルソケラトロジー",
+        "anchor": "60%E5%95%8F%EF%BC%9A%E3%82%AA%E3%83%AB%E3%82%BD%E3%82%B1%E3%83%A9%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 61,
+        "topic": "遠点と近点",
+        "anchor": "61%E5%95%8F%EF%BC%9A%E9%81%A0%E7%82%B9%E3%81%A8%E8%BF%91%E7%82%B9",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 62,
+        "topic": "自覚的回旋斜視角",
+        "anchor": "62%E5%95%8F%EF%BC%9A%E8%87%AA%E8%A6%9A%E7%9A%84%E5%9B%9E%E6%97%8B%E6%96%9C%E8%A6%96%E8%A7%92",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 63,
+        "topic": "日常視に近い網膜対応検査",
+        "anchor": "63%E5%95%8F%EF%BC%9A%E6%97%A5%E5%B8%B8%E8%A6%96%E3%81%AB%E8%BF%91%E3%81%84%E7%B6%B2%E8%86%9C%E5%AF%BE%E5%BF%9C%E6%A4%9C%E6%9F%BB",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 64,
+        "topic": "シクロペントラート",
+        "anchor": "64%E5%95%8F%EF%BC%9A%E3%82%B7%E3%82%AF%E3%83%AD%E3%83%9A%E3%83%B3%E3%83%88%E3%83%A9%E3%83%BC%E3%83%88",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 65,
+        "topic": "上斜筋麻痺",
+        "anchor": "65%E5%95%8F%EF%BC%9A%E4%B8%8A%E6%96%9C%E7%AD%8B%E9%BA%BB%E7%97%BA",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 66,
+        "topic": "滑車神経麻痺",
+        "anchor": "66%E5%95%8F%EF%BC%9A%E6%BB%91%E8%BB%8A%E7%A5%9E%E7%B5%8C%E9%BA%BB%E7%97%BA",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 67,
+        "topic": "近視性不同視弱視",
+        "anchor": "67%E5%95%8F%EF%BC%9A%E8%BF%91%E8%A6%96%E6%80%A7%E4%B8%8D%E5%90%8C%E8%A6%96%E5%BC%B1%E8%A6%96",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 68,
+        "topic": "小児へのメガネ処方の形状",
+        "anchor": "68%E5%95%8F%EF%BC%9A%E5%B0%8F%E5%85%90%E3%81%B8%E3%81%AE%E3%83%A1%E3%82%AC%E3%83%8D%E5%87%A6%E6%96%B9%E3%81%AE%E5%BD%A2%E7%8A%B6",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 69,
+        "topic": "感覚性外斜視",
+        "anchor": "69%E5%95%8F%EF%BC%9A%E6%84%9F%E8%A6%9A%E6%80%A7%E5%A4%96%E6%96%9C%E8%A6%96",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 70,
+        "topic": "パネルD-15",
+        "anchor": "70%E5%95%8F%EF%BC%9A%E3%83%91%E3%83%8D%E3%83%ABD-15",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 71,
+        "topic": "常染色体優性視神経萎縮",
+        "anchor": "71%E5%95%8F%EF%BC%9A%E5%B8%B8%E6%9F%93%E8%89%B2%E4%BD%93%E5%84%AA%E6%80%A7%E8%A6%96%E7%A5%9E%E7%B5%8C%E8%90%8E%E7%B8%AE",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 72,
+        "topic": "抗アクアポリン4抗体陽性視神経炎",
+        "anchor": "72%E5%95%8F%EF%BC%9A%E6%8A%97%E3%82%A2%E3%82%AF%E3%82%A2%E3%83%9D%E3%83%AA%E3%83%B34%E6%8A%97%E4%BD%93%E9%99%BD%E6%80%A7%E8%A6%96%E7%A5%9E%E7%B5%8C%E7%82%8E",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 73,
+        "topic": "上方注視麻痺",
+        "anchor": "73%E5%95%8F%EF%BC%9A%E4%B8%8A%E6%96%B9%E6%B3%A8%E8%A6%96%E9%BA%BB%E7%97%BA",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 74,
+        "topic": "先天眼振",
+        "anchor": "74%E5%95%8F%EF%BC%9A%E5%85%88%E5%A4%A9%E7%9C%BC%E6%8C%AF",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 75,
+        "topic": "右眼が揺れる",
+        "anchor": "75%E5%95%8F%EF%BC%9A%E5%8F%B3%E7%9C%BC%E3%81%8C%E6%8F%BA%E3%82%8C%E3%82%8B",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 76,
+        "topic": "隅角の解剖",
+        "anchor": "76%E5%95%8F%EF%BC%9A%E9%9A%85%E8%A7%92%E3%81%AE%E8%A7%A3%E5%89%96",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 77,
+        "topic": "ハンフリー視野計",
+        "anchor": "77%E5%95%8F%EF%BC%9A%E3%83%8F%E3%83%B3%E3%83%95%E3%83%AA%E3%83%BC%E8%A6%96%E9%87%8E%E8%A8%88",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 78,
+        "topic": "緑内障進行の危険因子",
+        "anchor": "78%E5%95%8F%EF%BC%9A%E7%B7%91%E5%86%85%E9%9A%9C%E9%80%B2%E8%A1%8C%E3%81%AE%E5%8D%B1%E9%99%BA%E5%9B%A0%E5%AD%90",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 79,
+        "topic": "原発閉塞隅角緑内障と前駆病変",
+        "anchor": "79%E5%95%8F%EF%BC%9A%E5%8E%9F%E7%99%BA%E9%96%89%E5%A1%9E%E9%9A%85%E8%A7%92%E7%B7%91%E5%86%85%E9%9A%9C%E3%81%A8%E5%89%8D%E9%A7%86%E7%97%85%E5%A4%89",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 80,
+        "topic": "緑内障の薬物治療",
+        "anchor": "80%E5%95%8F%EF%BC%9A%E7%B7%91%E5%86%85%E9%9A%9C%E3%81%AE%E8%96%AC%E7%89%A9%E6%B2%BB%E7%99%82",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 81,
+        "topic": "眼圧下降の第一選択",
+        "anchor": "81%E5%95%8F%EF%BC%9A%E7%9C%BC%E5%9C%A7%E4%B8%8B%E9%99%8D%E3%81%AE%E7%AC%AC%E4%B8%80%E9%81%B8%E6%8A%9E",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 82,
+        "topic": "配合点眼薬",
+        "anchor": "82%E5%95%8F%EF%BC%9A%E9%85%8D%E5%90%88%E7%82%B9%E7%9C%BC%E8%96%AC",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 83,
+        "topic": "続発緑内障",
+        "anchor": "83%E5%95%8F%EF%BC%9A%E7%B6%9A%E7%99%BA%E7%B7%91%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 84,
+        "topic": "レーザー線維柱帯形成術の合併症",
+        "anchor": "84%E5%95%8F%EF%BC%9A%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E7%B7%9A%E7%B6%AD%E6%9F%B1%E5%B8%AF%E5%BD%A2%E6%88%90%E8%A1%93%E3%81%AE%E5%90%88%E4%BD%B5%E7%97%87",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 85,
+        "topic": "線維柱帯切除後のレーザー切糸術の合併症",
+        "anchor": "85%E5%95%8F%EF%BC%9A%E7%B7%9A%E7%B6%AD%E6%9F%B1%E5%B8%AF%E5%88%87%E9%99%A4%E5%BE%8C%E3%81%AE%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E5%88%87%E7%B3%B8%E8%A1%93%E3%81%AE%E5%90%88%E4%BD%B5%E7%97%87",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 86,
+        "topic": "眼外傷",
+        "anchor": "86%E5%95%8F%EF%BC%9A%E7%9C%BC%E5%A4%96%E5%82%B7",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 87,
+        "topic": "外傷性散瞳",
+        "anchor": "87%E5%95%8F%EF%BC%9A%E5%A4%96%E5%82%B7%E6%80%A7%E6%95%A3%E7%9E%B3",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 88,
+        "topic": "治療用コンタクトレンズ",
+        "anchor": "88%E5%95%8F%EF%BC%9A%E6%B2%BB%E7%99%82%E7%94%A8%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E3%83%AC%E3%83%B3%E3%82%BA",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 89,
+        "topic": "コンタクトと眼鏡",
+        "anchor": "89%E5%95%8F%EF%BC%9A%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E3%81%A8%E7%9C%BC%E9%8F%A1",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 90,
+        "topic": "ぶどう膜炎を引き起こす抗がん剤",
+        "anchor": "90%E5%95%8F%EF%BC%9A%E3%81%B6%E3%81%A9%E3%81%86%E8%86%9C%E7%82%8E%E3%82%92%E5%BC%95%E3%81%8D%E8%B5%B7%E3%81%93%E3%81%99%E6%8A%97%E3%81%8C%E3%82%93%E5%89%A4",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 91,
+        "topic": "結膜嚢常在菌",
+        "anchor": "91%E5%95%8F%EF%BC%9A%E7%B5%90%E8%86%9C%E5%9A%A2%E5%B8%B8%E5%9C%A8%E8%8F%8C",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 92,
+        "topic": "遅発性眼内炎の起因菌",
+        "anchor": "92%E5%95%8F%EF%BC%9A%E9%81%85%E7%99%BA%E6%80%A7%E7%9C%BC%E5%86%85%E7%82%8E%E3%81%AE%E8%B5%B7%E5%9B%A0%E8%8F%8C",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 93,
+        "topic": "PAヨード",
+        "anchor": "93%E5%95%8F%EF%BC%9APA%E3%83%A8%E3%83%BC%E3%83%89",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 94,
+        "topic": "羊膜移植",
+        "anchor": "94%E5%95%8F%EF%BC%9A%E7%BE%8A%E8%86%9C%E7%A7%BB%E6%A4%8D",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 95,
+        "topic": "疾患と術式の組み合わせ",
+        "anchor": "95%E5%95%8F%EF%BC%9A%E7%96%BE%E6%82%A3%E3%81%A8%E8%A1%93%E5%BC%8F%E3%81%AE%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B",
+        "status": "excluded",
+        "reason": "眼瞼・形成手術の組み合わせが中心のため対象外。"
+      },
+      {
+        "number": 96,
+        "topic": "スペキュラ",
+        "anchor": "96%E5%95%8F%EF%BC%9A%E3%82%B9%E3%83%9A%E3%82%AD%E3%83%A5%E3%83%A9",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 97,
+        "topic": "緑内障と治療の組み合わせ",
+        "anchor": "97%E5%95%8F%EF%BC%9A%E7%B7%91%E5%86%85%E9%9A%9C%E3%81%A8%E6%B2%BB%E7%99%82%E3%81%AE%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 98,
+        "topic": "トラベクロトミーの合併症",
+        "anchor": "98%E5%95%8F%EF%BC%9A%E3%83%88%E3%83%A9%E3%83%99%E3%82%AF%E3%83%AD%E3%83%88%E3%83%9F%E3%83%BC%E3%81%AE%E5%90%88%E4%BD%B5%E7%97%87",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 99,
+        "topic": "パーフルオロカーボン",
+        "anchor": "99%E5%95%8F%EF%BC%9A%E3%83%91%E3%83%BC%E3%83%95%E3%83%AB%E3%82%AA%E3%83%AD%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%B3",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 100,
+        "topic": "網膜毒性のある薬物",
+        "anchor": "100%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E6%AF%92%E6%80%A7%E3%81%AE%E3%81%82%E3%82%8B%E8%96%AC%E7%89%A9",
+        "status": "included",
+        "subject": "retina-medical"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "round": 36,
+    "paper": "rinsyo",
+    "url": "https://guchopoi.com/senmoni36-rinsyo/",
+    "items": [
+      {
+        "number": 1,
+        "topic": "視神経の解剖",
+        "anchor": "%E7%AC%AC1%E5%95%8F%EF%BC%9A%E8%A6%96%E7%A5%9E%E7%B5%8C%E3%81%AE%E8%A7%A3%E5%89%96",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 2,
+        "topic": "朝顔症候群",
+        "anchor": "%E7%AC%AC2%E5%95%8F%EF%BC%9A%E6%9C%9D%E9%A1%94%E7%97%87%E5%80%99%E7%BE%A4",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 3,
+        "topic": "眼圧測定",
+        "anchor": "%E7%AC%AC3%E5%95%8F%EF%BC%9A%E7%9C%BC%E5%9C%A7%E6%B8%AC%E5%AE%9A",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 4,
+        "topic": "網膜色素上皮肥大",
+        "anchor": "%E7%AC%AC4%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E8%89%B2%E7%B4%A0%E4%B8%8A%E7%9A%AE%E8%82%A5%E5%A4%A7",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 5,
+        "topic": "涙道内視鏡",
+        "anchor": "%E7%AC%AC5%E5%95%8F%EF%BC%9A%E6%B6%99%E9%81%93%E5%86%85%E8%A6%96%E9%8F%A1",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 6,
+        "topic": "散布図",
+        "anchor": "%E7%AC%AC6%E5%95%8F%EF%BC%9A%E6%95%A3%E5%B8%83%E5%9B%B3",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 7,
+        "topic": "メタアナリシス",
+        "anchor": "%E7%AC%AC7%E5%95%8F%EF%BC%9A%E3%83%A1%E3%82%BF%E3%82%A2%E3%83%8A%E3%83%AA%E3%82%B7%E3%82%B9",
+        "status": "excluded",
+        "reason": "医療制度・公衆衛生・法規の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 8,
+        "topic": "研究デザイン",
+        "anchor": "%E7%AC%AC8%E5%95%8F%EF%BC%9A%E7%A0%94%E7%A9%B6%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3",
+        "status": "excluded",
+        "reason": "研究法・統計の独立問題のため、指定8科目の対象から除外。"
+      },
+      {
+        "number": 9,
+        "topic": "眼瞼腫瘍",
+        "anchor": "%E7%AC%AC9%E5%95%8F%EF%BC%9A%E7%9C%BC%E7%9E%BC%E8%85%AB%E7%98%8D",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 10,
+        "topic": "角膜混濁",
+        "anchor": "%E7%AC%AC10%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E6%B7%B7%E6%BF%81",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 11,
+        "topic": "角膜炎",
+        "anchor": "%E7%AC%AC11%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 12,
+        "topic": "角膜混濁",
+        "anchor": "%E7%AC%AC12%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E6%B7%B7%E6%BF%81",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 13,
+        "topic": "角膜ジストロフィー",
+        "anchor": "%E7%AC%AC13%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E3%82%B8%E3%82%B9%E3%83%88%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 14,
+        "topic": "上皮びらん",
+        "anchor": "%E7%AC%AC14%E5%95%8F%EF%BC%9A%E4%B8%8A%E7%9A%AE%E3%81%B3%E3%82%89%E3%82%93",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 15,
+        "topic": "後発白内障",
+        "anchor": "%E7%AC%AC15%E5%95%8F%EF%BC%9A%E5%BE%8C%E7%99%BA%E7%99%BD%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "cataract"
+      },
+      {
+        "number": 16,
+        "topic": "白点",
+        "anchor": "%E7%AC%AC16%E5%95%8F%EF%BC%9A%E7%99%BD%E7%82%B9",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 17,
+        "topic": "漿液性網膜剥離",
+        "anchor": "%E7%AC%AC17%E5%95%8F%EF%BC%9A%E6%BC%BF%E6%B6%B2%E6%80%A7%E7%B6%B2%E8%86%9C%E5%89%A5%E9%9B%A2",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 18,
+        "topic": "サッカーボール外傷",
+        "anchor": "%E7%AC%AC18%E5%95%8F%EF%BC%9A%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%96%E5%82%B7",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 19,
+        "topic": "focal choroidal excavation ",
+        "anchor": "%E7%AC%AC19%E5%95%8F%EF%BC%9Afocal_choroidal_excavation",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 20,
+        "topic": "網膜出血",
+        "anchor": "%E7%AC%AC20%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E5%87%BA%E8%A1%80",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 21,
+        "topic": "ステロイドで増悪する疾患",
+        "anchor": "%E7%AC%AC21%E5%95%8F%EF%BC%9A%E3%82%B9%E3%83%86%E3%83%AD%E3%82%A4%E3%83%89%E3%81%A7%E5%A2%97%E6%82%AA%E3%81%99%E3%82%8B%E7%96%BE%E6%82%A3",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 22,
+        "topic": "星状硝子体症",
+        "anchor": "%E7%AC%AC22%E5%95%8F%EF%BC%9A%E6%98%9F%E7%8A%B6%E7%A1%9D%E5%AD%90%E4%BD%93%E7%97%87",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 23,
+        "topic": "前部ぶどう膜炎",
+        "anchor": "%E7%AC%AC23%E5%95%8F%EF%BC%9A%E5%89%8D%E9%83%A8%E3%81%B6%E3%81%A9%E3%81%86%E8%86%9C%E7%82%8E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 24,
+        "topic": "網膜色素線条",
+        "anchor": "%E7%AC%AC24%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E8%89%B2%E7%B4%A0%E7%B7%9A%E6%9D%A1",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 25,
+        "topic": "角膜後面沈着物",
+        "anchor": "%E7%AC%AC25%E5%95%8F%EF%BC%9A%E8%A7%92%E8%86%9C%E5%BE%8C%E9%9D%A2%E6%B2%88%E7%9D%80%E7%89%A9",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 26,
+        "topic": "結核",
+        "anchor": "%E7%AC%AC26%E5%95%8F%EF%BC%9A%E7%B5%90%E6%A0%B8",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 27,
+        "topic": "急性網膜壊死",
+        "anchor": "%E7%AC%AC27%E5%95%8F%EF%BC%9A%E6%80%A5%E6%80%A7%E7%B6%B2%E8%86%9C%E5%A3%8A%E6%AD%BB",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 28,
+        "topic": "トキソプラズマ",
+        "anchor": "%E7%AC%AC28%E5%95%8F%EF%BC%9A%E3%83%88%E3%82%AD%E3%82%BD%E3%83%97%E3%83%A9%E3%82%BA%E3%83%9E",
+        "status": "included",
+        "subject": "uveitis"
+      },
+      {
+        "number": 29,
+        "topic": "クロスシリンダー",
+        "anchor": "%E7%AC%AC29%E5%95%8F%EF%BC%9A%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B7%E3%83%AA%E3%83%B3%E3%83%80%E3%83%BC",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 30,
+        "topic": "オートレフ",
+        "anchor": "%E7%AC%AC30%E5%95%8F%EF%BC%9A%E3%82%AA%E3%83%BC%E3%83%88%E3%83%AC%E3%83%95",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 31,
+        "topic": "バゴリーニ",
+        "anchor": "%E7%AC%AC31%E5%95%8F%EF%BC%9A%E3%83%90%E3%82%B4%E3%83%AA%E3%83%BC%E3%83%8B",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 32,
+        "topic": "滑車神経麻痺",
+        "anchor": "%E7%AC%AC32%E5%95%8F%EF%BC%9A%E6%BB%91%E8%BB%8A%E7%A5%9E%E7%B5%8C%E9%BA%BB%E7%97%BA",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 33,
+        "topic": "固定内斜視",
+        "anchor": "%E7%AC%AC33%E5%95%8F%EF%BC%9A%E5%9B%BA%E5%AE%9A%E5%86%85%E6%96%9C%E8%A6%96",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 34,
+        "topic": "非屈折性調節性内斜視",
+        "anchor": "%E7%AC%AC34%E5%95%8F%EF%BC%9A%E9%9D%9E%E5%B1%88%E6%8A%98%E6%80%A7%E8%AA%BF%E7%AF%80%E6%80%A7%E5%86%85%E6%96%9C%E8%A6%96",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 35,
+        "topic": "間欠性外斜視",
+        "anchor": "%E7%AC%AC35%E5%95%8F%EF%BC%9A%E9%96%93%E6%AC%A0%E6%80%A7%E5%A4%96%E6%96%9C%E8%A6%96",
+        "status": "included",
+        "subject": "pediatric"
+      },
+      {
+        "number": 36,
+        "topic": "視神経炎",
+        "anchor": "%E7%AC%AC36%E5%95%8F%EF%BC%9A%E8%A6%96%E7%A5%9E%E7%B5%8C%E7%82%8E",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 37,
+        "topic": "SSOH",
+        "anchor": "%E7%AC%AC37%E5%95%8F%EF%BC%9ASSOH",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 38,
+        "topic": "視神経と動眼神経麻痺",
+        "anchor": "%E7%AC%AC38%E5%95%8F%EF%BC%9A%E8%A6%96%E7%A5%9E%E7%B5%8C%E3%81%A8%E5%8B%95%E7%9C%BC%E7%A5%9E%E7%B5%8C%E9%BA%BB%E7%97%BA",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 39,
+        "topic": "PE",
+        "anchor": "%E7%AC%AC39%E5%95%8F%EF%BC%9APE",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 40,
+        "topic": "血管新生緑内障",
+        "anchor": "%E7%AC%AC40%E5%95%8F%EF%BC%9A%E8%A1%80%E7%AE%A1%E6%96%B0%E7%94%9F%E7%B7%91%E5%86%85%E9%9A%9C",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 41,
+        "topic": "眼窩内壁骨折",
+        "anchor": "%E7%AC%AC41%E5%95%8F%EF%BC%9A%E7%9C%BC%E7%AA%A9%E5%86%85%E5%A3%81%E9%AA%A8%E6%8A%98",
+        "status": "excluded",
+        "reason": "涙道・眼瞼・眼窩・形成領域が中心で、指定8科目の対象から除外。"
+      },
+      {
+        "number": 42,
+        "topic": "移植後角膜感染",
+        "anchor": "%E7%AC%AC42%E5%95%8F%EF%BC%9A%E7%A7%BB%E6%A4%8D%E5%BE%8C%E8%A7%92%E8%86%9C%E6%84%9F%E6%9F%93",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 43,
+        "topic": "TS-1",
+        "anchor": "%E7%AC%AC43%E5%95%8F%EF%BC%9ATS-1",
+        "status": "included",
+        "subject": "cornea"
+      },
+      {
+        "number": 44,
+        "topic": "iStent",
+        "anchor": "%E7%AC%AC44%E5%95%8F%EF%BC%9AiStent",
+        "status": "included",
+        "subject": "glaucoma"
+      },
+      {
+        "number": 45,
+        "topic": "網膜出血",
+        "anchor": "%E7%AC%AC45%E5%95%8F%EF%BC%9A%E7%B6%B2%E8%86%9C%E5%87%BA%E8%A1%80",
+        "status": "included",
+        "subject": "retina-medical"
+      },
+      {
+        "number": 46,
+        "topic": "パーフルオロカーボン",
+        "anchor": "46%E5%95%8F%EF%BC%9A%E3%83%91%E3%83%BC%E3%83%95%E3%83%AB%E3%82%AA%E3%83%AD%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%B3",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 47,
+        "topic": "黄斑円孔",
+        "anchor": "47%E5%95%8F%EF%BC%9A%E9%BB%84%E6%96%91%E5%86%86%E5%AD%94",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 48,
+        "topic": "Goldman三面鏡",
+        "anchor": "48%E5%95%8F%EF%BC%9AGoldman%E4%B8%89%E9%9D%A2%E9%8F%A1",
+        "status": "included",
+        "subject": "retina-surgery"
+      },
+      {
+        "number": 49,
+        "topic": "甲状腺眼症",
+        "anchor": "49%E5%95%8F%EF%BC%9A%E7%94%B2%E7%8A%B6%E8%85%BA%E7%9C%BC%E7%97%87",
+        "status": "included",
+        "subject": "neuro"
+      },
+      {
+        "number": 50,
+        "topic": "レクトミー術後",
+        "anchor": "50%E5%95%8F%EF%BC%9A%E3%83%AC%E3%82%AF%E3%83%88%E3%83%9F%E3%83%BC%E8%A1%93%E5%BE%8C",
+        "status": "included",
+        "subject": "glaucoma"
+      }
+    ]
+  }
+]

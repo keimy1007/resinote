@@ -15,7 +15,7 @@ test('8 subjects have distinct, traceable questions with answers and explanation
   for(const q of bank){
     assert.ok(SUBJECTS.some(s=>s.id===q.subject));
     for(const key of ['prompt','answer','explanation','source','answerStatus','topic'])assert.ok(q[key]?.trim(),`${q.id} missing ${key}`);
-    assert.ok(['past','original'].includes(q.kind));
+    assert.ok(['past','original','specialist'].includes(q.kind));
     if(q.kind==='past')assert.ok(q.image||q.format==='reproduced');
     if(q.image)assert.ok(existsSync(new URL(`../public/${q.image}`,import.meta.url)),q.image);
     for(const ref of q.refs||[])assert.ok(REFERENCES[ref]?.url,`${q.id} unknown reference ${ref}`);
@@ -42,6 +42,52 @@ test('combined subject/source/image filters do not leak other subjects',()=>{
   assert.ok(qs.length>10);
   assert.ok(qs.every(q=>q.subject==='uveitis'&&q.kind==='past'&&q.image));
   assert.equal(selectQuestions(bank,{subject:'neuro',images:true},emptyState()).length,0);
+});
+
+test('specialist coverage accounts for every source item in the three years',()=>{
+  const papers=JSON.parse(readFileSync(new URL('../content/specialist-sources.json',import.meta.url),'utf8'));
+  assert.equal(papers.length,6);
+  const items=papers.flatMap(p=>p.items.map(i=>({...i,year:p.year,paper:p.paper})));
+  assert.equal(items.length,450);
+  assert.equal(new Set(items.map(i=>`${i.year}/${i.paper}/${i.number}`)).size,450);
+  const specialist=bank.filter(q=>q.kind==='specialist');
+  assert.equal(specialist.length,384);
+  for(const p of papers){
+    assert.deepEqual(p.items.map(i=>i.number),Array.from({length:p.paper==='ippan'?100:50},(_,i)=>i+1));
+    for(const i of p.items){
+      const q=specialist.find(q=>q.year===p.year&&q.paper===p.paper&&q.number===i.number);
+      if(i.status==='included'){
+        assert.equal(q?.subject,i.subject);
+        assert.equal(q.sourceUrl,`${p.url}#${i.anchor}`);
+        assert.match(q.answerStatus,/参考解答.*再構成.*公式解答ではありません/);
+      }else{
+        assert.ok(['excluded','pending'].includes(i.status));
+        assert.ok(i.reason?.length>10);
+        assert.equal(q,undefined);
+      }
+    }
+  }
+});
+
+test('all three source filters combine with subjects, specialist years and saved checks',()=>{
+  const state=emptyState();
+  for(const subject of SUBJECTS)for(const kind of ['past','original','specialist']){
+    const selected=selectQuestions(bank,{subject:subject.id,kind},state);
+    assert.ok(selected.length>0,`${subject.id}/${kind}`);
+    assert.ok(selected.every(q=>q.subject===subject.id&&q.kind===kind));
+  }
+  for(const year of [2024,2025,2026])for(const subject of SUBJECTS){
+    const selected=selectQuestions(bank,{kind:'specialist',subject:subject.id,year:String(year)},state);
+    assert.ok(selected.length>0,`${year}/${subject.id}`);
+    assert.ok(selected.every(q=>q.year===year&&q.subject===subject.id));
+    const session=makeSession(selected,{count:'all',kind:'specialist',year:String(year),subject:subject.id});
+    assert.equal(session.kind,'specialist');assert.equal(session.year,String(year));
+    gradeQuestion(state,session,selected[0].id,'correct');
+    assert.ok(!selectQuestions(bank,{kind:'specialist',subject:subject.id,year:String(year),review:'wrong'},state).includes(selected[0]));
+  }
+  for(const kind of ['past','original','all'])assert.deepEqual(selectQuestions(bank,{kind,year:'2026'},state),selectQuestions(bank,{kind},state));
+  assert.equal(selectQuestions(bank,{kind:'past'},state).length,81);
+  assert.equal(selectQuestions(bank,{kind:'original'},state).length,530);
 });
 
 test('search handles full-width Latin input and searches explanations',()=>{

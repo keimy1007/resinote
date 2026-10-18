@@ -17,21 +17,22 @@ export function selectQuestions(bank, options, state) {
   return bank.filter(q=>
     (!options.subject||options.subject==='all'||q.subject===options.subject)&&
     (!options.kind||options.kind==='all'||q.kind===options.kind)&&
+    (options.kind!=='specialist'||!options.year||options.year==='all'||q.year===Number(options.year))&&
     (!options.images||!!q.image)&&
     (!options.topic||q.topic===options.topic)&&
     (options.review!=='wrong'||state.records[q.id]?.grade!=='correct')&&
     (options.review!=='correct'||state.records[q.id]?.grade==='correct')&&
     (!options.bookmarks||state.bookmarks.includes(q.id))&&
-    (!search||`${q.prompt} ${q.answer} ${q.topic} ${q.explanation}`.normalize('NFKC').toLowerCase().includes(search))
+    (!search||`${q.prompt} ${q.answer} ${q.topic} ${q.explanation} ${q.kind==='specialist'?q.source:''}`.normalize('NFKC').toLowerCase().includes(search))
   );
 }
 
-export function makeSession(questions, {count=10,random=true,subject='all'}={}, rng=Math.random) {
+export function makeSession(questions, {count=10,random=true,subject='all',kind='all',year='all'}={}, rng=Math.random) {
   const list=[...questions];
   if(random) for(let i=list.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[list[i],list[j]]=[list[j],list[i]];}
   const ids=list.slice(0,count==='all'?list.length:Number(count)).map(q=>q.id);
   if(!ids.length)return null;
-  return {id:`${Date.now()}-${Math.random().toString(36).slice(2,8)}`,mode:'study',subject,ids,index:0,grades:{},revealed:false,finished:false,startedAt:new Date().toISOString()};
+  return {id:`${Date.now()}-${Math.random().toString(36).slice(2,8)}`,mode:'study',subject,kind,year,ids,index:0,grades:{},revealed:false,finished:false,startedAt:new Date().toISOString()};
 }
 
 export function gradeQuestion(state,session,id,grade,now=new Date().toISOString()) {

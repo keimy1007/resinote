@@ -30,5 +30,16 @@ export function loadQuestions() {
       questions.push({...group,prompt,answer,explanation,kind:'original',format:group.image?'image':'text',answerStatus:'参考解答（提供資料の別項目・条件から作成したオリジナル問題）'});
     }
   }
+  const papers = JSON.parse(readFileSync(new URL('../content/specialist-sources.json', import.meta.url), 'utf8'));
+  for (const [year,paper,number,subject,prompt,answer,explanation,refs] of rows('specialist',8)) {
+    const source = papers.find(p=>p.year===Number(year)&&p.paper===paper);
+    const item = source?.items.find(q=>q.number===Number(number));
+    if (!item || item.status!=='included' || item.subject!==subject) throw new Error(`Missing specialist source: ${year}/${paper}/${number}`);
+    questions.push({id:`specialist-${year}-${paper}-${number}`,subject,topic:item.topic,prompt,answer,explanation,
+      kind:'specialist',format:'text',year:Number(year),paper,number:Number(number),refs:refs.split(','),
+      source:`第${source.round}回（${year}年）眼科専門医試験 ${paper==='ippan'?'一般':'臨床'} 問${number}：${item.topic}`,
+      sourceUrl:`${source.url}#${item.anchor}`,originalUrl:'https://www.nichigan.or.jp/senmon/purpose/examination.html',
+      answerStatus:'参考解答（専門医試験の出題論点を一問一答に再構成・公式解答ではありません）'});
+  }
   return questions.map(q => ({id:`${q.subject}-${createHash('sha256').update(q.kind+q.prompt).digest('hex').slice(0,12)}`, ...q}));
 }
