@@ -10,6 +10,23 @@ export const SUBJECTS = [
 ];
 
 export const REFERENCES = {
+  posteriorpolar:{title:'ASCRS：後極白内障手術の委員会報告',url:'https://www.ascrs.org/-/media/files/clinical-committee-reports/phacoemulsification-of-posterior-polar-cataracts.pdf'},
+  monoculartrial:{title:'片眼テストと複数回眼圧測定の比較研究',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC3334208/'},
+  perimetry:{title:'Haag-Streit：Visual Field Digest 第8版・進行解析',url:'https://uk.haag-streit.com/2%20Products/Speciality%20diagnostics/Perimetry/Category%20assets/Books/HS_perimetry_br_xxx_visual_field_digest_8th_en.pdf'},
+  escrscataract:{"title": "ESCRS：白内障手術の推奨事項", "url": "https://www.escrs.org/escrs-recommendations-for-cataract-surgery"},
+  escrsphaco:{"title": "ESCRS：Phaco Focus・超音波と核片の反発", "url": "https://www.escrs.org/eurotimes/phaco-focus"},
+  yagpits:{"title": "Nd:YAG後嚢切開のエネルギーと合併症・臨床研究", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4424716/"},
+  erosion:{"title": "Moorfields Eye Hospital：再発性角膜上皮びらん", "url": "https://www.moorfields.nhs.uk/ae/patient-guides/recurrent-corneal-erosion-syndrome"},
+  cornealxyz:{"title": "Thoft・Friend：角膜上皮維持のX・Y・Z仮説（原著）", "url": "https://pubmed.ncbi.nlm.nih.gov/6618809/"},
+  tonometry:{"title": "Haag-Streit：Goldmann式圧平法・Perkins眼圧計の取扱説明書", "url": "https://haag-streit.com/Country_specific/HS_UK/Quality-Regulatory/Brochures-flyers/CCO_Perkins_br_5806001A_en.pdf"},
+  mikeluna:{"title": "PMDA：ミケルナ配合点眼液・電子添文", "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/180078_1319823Q1026_1_07"},
+  cosopt:{"title": "参天製薬：コソプト・コソプトミニ配合点眼液・電子添文", "url": "https://pins.japic.or.jp/pdf/newPINS/00065423.pdf"},
+  diabeticretinopathy:{"title": "ASRS：糖尿病網膜症", "url": "https://www.asrs.org/patients/retinal-diseases/3/diabetic-retinopathy"},
+  intraoculargas:{"title": "Royal College：眼内ガス・飛行と笑気麻酔の安全情報", "url": "https://curriculum.rcophth.ac.uk/2018/12/ophthalmic-safety-alert-use-of-nitrous-oxide-when-there-is-gas-in-an-operated-eye/"},
+  octnomenclature:{"title": "IN•OCT：OCTの解剖学的名称に関する国際コンセンサス（2014）", "url": "https://pubmed.ncbi.nlm.nih.gov/24755005/"},
+  lymphomatreatment:{"title": "EHA–ESMO：中枢神経原発リンパ腫・硝子体網膜リンパ腫の診療指針（2024）", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148853/"},
+  papilledema:{"title": "NANOS：2019講習資料・うっ血乳頭の評価", "url": "https://www.nanosweb.org/files/Annual%20Meeting%27/2019/2019%20NANOS%20Final%20Syllabus%281%29.pdf"},
+  hesstest:{"title": "AAO：Hess試験・方法と解釈", "url": "https://eyewiki.aao.org/The_Hess_Test"},
   pvd:{"title":"ASRS：後部硝子体剥離","url":"https://www.asrs.org/patients/retinal-diseases/9/posterior-vitreous-detachment"},
   eog:{"title":"ISCEV：EOG標準（2017）","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC5309273/"},
   best:{"title":"GeneReviews：Bestrophinopathies","url":"https://www.ncbi.nlm.nih.gov/books/NBK1167/"},
@@ -181,6 +198,7 @@ export const REFERENCES = {
 export const EDITORIAL_NOTES = [
   "「専門医試験」は2024〜2026年（第36〜38回）の一般・臨床450問を確認し、8科目の出題論点から384問を一問一答に再構成。元の問題文・選択肢・画像を転載したものではありません。60問は範囲外、6問は情報不足で保留。掲載サイトの解答は非公式で、追加問題も編集上の参考解答です。",
   '8科目は提供Excelのシート構成に準拠。オリジナル問題は提供資料・2024/2025再現記録との対応を見直し、530問から265問に厳選しました。手技の順序、表や症例の条件別の対応、鑑別・所見の比較を優先しています。出題予測や網羅性を保証するものではありません。',
+  '2009年の口頭試問、2013・2019・2023・2025年の問題資料、2017・2018・2024・2025年の再現記録から過去問64問を追加。出典の設問・論点を再構成し、参考解答としています。古い治療記載や明らかな誤記は関連資料と照合して補正しました。',
   '「過去問」は一問一答に分割・再構成しています。「再現記録」は提供された記録を基にした文章問題で、元の出題画像がないものです。原画像を作り替えたり、架空の過去問画像を生成したりしていません。',
   'AMDのメモは補正：1型はRPE下（旧occultに対応することが多い）、2型は網膜下（旧classicに対応することが多い）、3型は網膜内血管系由来。旧FA分類との完全な同義ではありません。',
   'ベンチュリの実流量は常に一定ではありません。分散型OVDも残留すれば眼圧上昇の原因になります。資料の断定的な表現は補正しています。',

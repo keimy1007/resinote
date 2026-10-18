@@ -24,6 +24,8 @@ export function loadQuestions() {
   for (const [subject,topic,prompt,answer,explanation,source] of rows('reproduced',6)) {
     questions.push({subject,topic,prompt,answer,explanation,source,kind:'past',format:'reproduced',answerStatus:'再現記録をもとに編集した参考解答（元画像なし）'});
   }
+  const supplements = JSON.parse(readFileSync(new URL('../content/past-supplement.json', import.meta.url), 'utf8'));
+  questions.push(...supplements.map(q => ({...q,kind:'past'})));
   const expansions = JSON.parse(readFileSync(new URL('../content/expanded.json', import.meta.url), 'utf8'));
   for (const {questions:items, ...group} of expansions) {
     for (const [prompt,answer,explanation] of items) {

@@ -124,7 +124,7 @@ function solution(q){
   const subject=subjectOf(q.subject);
   let refs=q.refs||subject.refs;
   if(!q.refs&&q.subject==='retina-medical')refs=q.topic==='AMD'?['amd']:q.topic==='ERG'?['erg']:q.topic==='RP'?['rp']:q.topic==='遺伝性網膜疾患'?['stargardt','rp']:['rp'];
-  return `<div class="solution"><span class="answer-eyebrow">${q.answerStatus.startsWith('参考解答')?'参考解答':'解答'}</span><h2>${esc(q.answer)}</h2><div class="knowledge"><h3>${icon('spark')}解説・周辺知識</h3><p>${esc(q.explanation)}</p></div><details class="source-details"><summary>出題の根拠・参考資料</summary><p><strong>${q.kind==='past'?'元資料':'出題範囲の根拠'}</strong><br>${esc(q.source)}</p>${q.sourceUrl?`<p><a href="${esc(q.sourceUrl)}" target="_blank" rel="noopener noreferrer">元の解説ページ（該当問題） ↗</a></p><p><a href="${esc(q.originalUrl)}" target="_blank" rel="noopener noreferrer">学会の過去問題公開ページ ↗</a></p>`:''}<p class="source-status">${esc(q.answerStatus)}</p>${refs.length?`<p class="small">関連事項の確認に使う資料</p><ul>${refs.map(id=>`<li><a href="${REFERENCES[id].url}" target="_blank" rel="noopener noreferrer">${esc(REFERENCES[id].title)} ↗</a>${REFERENCES[id].note?`<p class="small">${esc(REFERENCES[id].note)}</p>`:''}</li>`).join('')}</ul>`:''}</details></div>`;
+  return `<div class="solution"><div class="answer-toolbar"><span class="answer-eyebrow">${q.answerStatus.startsWith('参考解答')?'参考解答':'解答'}</span>${btn('解答をコピー','copy-answer','text-button',`data-id="${q.id}" aria-label="解答をコピー"`)}</div><h2>${esc(q.answer)}</h2><div class="knowledge"><h3>${icon('spark')}解説・周辺知識</h3><p>${esc(q.explanation)}</p></div><details class="source-details"><summary>出題の根拠・参考資料</summary><p><strong>${q.kind==='past'?'元資料':'出題範囲の根拠'}</strong><br>${esc(q.source)}</p>${q.sourceUrl?`<p><a href="${esc(q.sourceUrl)}" target="_blank" rel="noopener noreferrer">元の解説ページ（該当問題） ↗</a></p><p><a href="${esc(q.originalUrl)}" target="_blank" rel="noopener noreferrer">学会の過去問題公開ページ ↗</a></p>`:''}<p class="source-status">${esc(q.answerStatus)}</p>${refs.length?`<p class="small">関連事項の確認に使う資料</p><ul>${refs.map(id=>`<li><a href="${REFERENCES[id].url}" target="_blank" rel="noopener noreferrer">${esc(REFERENCES[id].title)} ↗</a>${REFERENCES[id].note?`<p class="small">${esc(REFERENCES[id].note)}</p>`:''}</li>`).join('')}</ul>`:''}</details></div>`;
 }
 function ratingButtons(id,grade){return `<div class="rating-buttons" role="group" aria-label="記憶のチェック">${[['correct','覚えた','1'],['wrong','覚えてない','2']].map(([value,label,key])=>`<button data-action="grade" data-id="${id}" data-grade="${value}" class="rating ${value} ${grade===value?'selected':''}" aria-pressed="${grade===value}"><kbd>${key}</kbd>${label}${grade===value?icon('check'):''}</button>`).join('')}</div>`;}
 
@@ -159,9 +159,10 @@ document.addEventListener('click',async event=>{
     if(s&&!window.confirm('途中の学習を終了して、この問題を開きますか？ チェック済みの記録は残ります。'))return;
     const q=byId.get(b.dataset.id);startSession([q],{count:1,subject:q.subject,kind:q.kind,year:q.year||'all',random:false});
   }
-  if(action==='copy-question'){
-    try{await navigator.clipboard.writeText(byId.get(b.dataset.id).prompt);toast('問題文をコピーしました');}
-    catch{toast('コピーできませんでした。問題文を選択してコピーしてください。');}
+  if(action==='copy-question'||action==='copy-answer'){
+    const q=byId.get(b.dataset.id);const label=action==='copy-answer'?'解答':'問題文';
+    try{await navigator.clipboard.writeText(action==='copy-answer'?q.answer:q.prompt);toast(`${label}をコピーしました`);}
+    catch{toast(`コピーできませんでした。${label}を選択してコピーしてください。`);}
   }
   if(action==='bookmark'){
     const id=b.dataset.id;state.bookmarks=state.bookmarks.includes(id)?state.bookmarks.filter(x=>x!==id):[...state.bookmarks,id];save();

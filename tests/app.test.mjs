@@ -16,7 +16,7 @@ test('8 subjects have distinct, traceable questions with answers and explanation
     assert.ok(SUBJECTS.some(s=>s.id===q.subject));
     for(const key of ['prompt','answer','explanation','source','answerStatus','topic'])assert.ok(q[key]?.trim(),`${q.id} missing ${key}`);
     assert.ok(['past','original','specialist'].includes(q.kind));
-    if(q.kind==='past')assert.ok(q.image||q.format==='reproduced');
+    if(q.kind==='past')assert.ok(q.image||['text','reproduced'].includes(q.format));
     if(q.image)assert.ok(existsSync(new URL(`../public/${q.image}`,import.meta.url)),q.image);
     for(const ref of q.refs||[])assert.ok(REFERENCES[ref]?.url,`${q.id} unknown reference ${ref}`);
   }
@@ -27,8 +27,8 @@ test('table expansions cover all eight subjects and remain original with traceab
   assert.equal(added.length,130);
   for(const s of SUBJECTS)assert.ok(added.filter(q=>q.subject===s.id).length>=10,s.id);
   assert.ok(added.every(q=>q.kind==='original'&&q.answerStatus.startsWith('参考解答')));
-  assert.equal(bank.filter(q=>q.kind==='past').length,81);
-  assert.equal(bank.filter(q=>q.kind==='past'&&q.image).length,61);
+  assert.equal(bank.filter(q=>q.kind==='past').length,145);
+  assert.equal(bank.filter(q=>q.kind==='past'&&q.image).length,79);
   for(let cell=1;cell<=5;cell++){
     const questions=added.filter(q=>q.group===`bleb-${cell}`);
     assert.ok(questions.length>=4,`missing coverage of table cell ${cell}`);
@@ -41,7 +41,9 @@ test('combined subject/source/image filters do not leak other subjects',()=>{
   const qs=selectQuestions(bank,{subject:'uveitis',kind:'past',images:true},emptyState());
   assert.ok(qs.length>10);
   assert.ok(qs.every(q=>q.subject==='uveitis'&&q.kind==='past'&&q.image));
-  assert.equal(selectQuestions(bank,{subject:'neuro',images:true},emptyState()).length,0);
+  const neuro=selectQuestions(bank,{subject:'neuro',kind:'past',images:true},emptyState());
+  assert.equal(neuro.length,3);
+  assert.ok(neuro.every(q=>q.subject==='neuro'&&q.kind==='past'&&q.image));
 });
 
 test('specialist coverage accounts for every source item in the three years',()=>{
@@ -86,8 +88,28 @@ test('all three source filters combine with subjects, specialist years and saved
     assert.ok(!selectQuestions(bank,{kind:'specialist',subject:subject.id,year:String(year),review:'wrong'},state).includes(selected[0]));
   }
   for(const kind of ['past','original','all'])assert.deepEqual(selectQuestions(bank,{kind,year:'2026'},state),selectQuestions(bank,{kind},state));
-  assert.equal(selectQuestions(bank,{kind:'past'},state).length,81);
+  assert.equal(selectQuestions(bank,{kind:'past'},state).length,145);
   assert.equal(selectQuestions(bank,{kind:'original'},state).length,265);
+});
+
+
+test('supplemented past questions have source locations, reference answers and relevant source filters',()=>{
+  const added=JSON.parse(readFileSync(new URL('../content/past-supplement.json',import.meta.url),'utf8'));
+  assert.equal(added.length,64);
+  for(const subject of SUBJECTS){
+    const selected=selectQuestions(bank,{subject:subject.id,kind:'past'},emptyState());
+    const supplements=added.filter(q=>q.subject===subject.id);
+    assert.ok(supplements.length>=6,subject.id);
+    for(const q of supplements){
+      const loaded=selected.find(item=>item.prompt===q.prompt);
+      assert.ok(loaded,`past filter omits ${q.prompt}`);
+      assert.match(q.source,/(2009|2013|2017|2018|2019|2023|2024|2025)/);
+      assert.match(q.answerStatus,/^参考解答/);
+      assert.ok(q.refs.length>0);
+      assert.equal(Boolean(q.image),q.format==='image');
+      if(q.format==='reproduced')assert.match(q.answerStatus,/元画像なし/);
+    }
+  }
 });
 
 test('search handles full-width Latin input and searches explanations',()=>{
