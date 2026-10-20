@@ -10,6 +10,18 @@ export const SUBJECTS = [
 ];
 
 export const REFERENCES = {
+  lensaquaporin: {"title": "水晶体アクアポリンの水透過性・原著", "url": "https://pubmed.ncbi.nlm.nih.gov/15790907/"},
+  iolglistening: {"title": "疎水性アクリルIOLのSSNGと光散乱・原著", "url": "https://pubmed.ncbi.nlm.nih.gov/22999603/"},
+  duotrav: {"title": "PMDA：デュオトラバ電子添文", "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_1319820Q1022_2_06"},
+  trusopt: {"title": "トルソプト電子添文", "url": "https://pins.japic.or.jp/pdf/newPINS/00045289.pdf"},
+  endodiathermy: {"title": "Pitcher・Gupta：硝子体手術中のジアテルミーと止血確認", "url": "https://retinatoday.com/articles/2017-jan-feb/making-endodiathermy-a-multifunctional-tool"},
+  constellation: {"title": "Alcon：Constellation操作説明書・Extrusion Setup（3.14）", "url": "https://manuals.plus/m/1b5998f83d910ba2529d7c261794b60ef0952d928da432f70255e3e6c1b9eeb5.pdf"},
+  visudyne: {"title": "PMDA：ベルテポルフィンの光過敏・遮光に関する承認資料", "url": "https://www.pmda.go.jp/drugs/2003/P200300025/53029300_21500AMY00139_X112_1.pdf"},
+  adalimumab: {"title": "PMDA：ヒュミラ電子添文", "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_3999426G3027_1_12"},
+  cmvretinitis: {"title": "NIH：CMV網膜炎の治療指針（HIV関連）", "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cytomegalovirus"},
+  nemos: {"title": "NEMOS：NMOSDの急性期・維持治療に関する推奨（2023）", "url": "https://doi.org/10.1007/s00415-023-11910-z"},
+  nemosdiagnosis: {"title": "NEMOS：NMOSD・MOGADの診断と鑑別（2023）", "url": "https://doi.org/10.1007/s00415-023-11634-0"},
+
   posteriorpolar:{title:'ASCRS：後極白内障手術の委員会報告',url:'https://www.ascrs.org/-/media/files/clinical-committee-reports/phacoemulsification-of-posterior-polar-cataracts.pdf'},
   monoculartrial:{title:'片眼テストと複数回眼圧測定の比較研究',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC3334208/'},
   perimetry:{title:'Haag-Streit：Visual Field Digest 第8版・進行解析',url:'https://uk.haag-streit.com/2%20Products/Speciality%20diagnostics/Perimetry/Category%20assets/Books/HS_perimetry_br_xxx_visual_field_digest_8th_en.pdf'},
@@ -226,6 +238,7 @@ export const EDITORIAL_NOTES = [
   "「専門医試験」は2024〜2026年（第36〜38回）の一般・臨床450問を確認し、8科目の出題論点から384問を一問一答に再構成。元の問題文・選択肢・画像を転載したものではありません。60問は範囲外、6問は情報不足で保留。掲載サイトの解答は非公式で、追加問題も編集上の参考解答です。",
   '8科目は提供Excelのシート構成に準拠。2026年10月18日にオリジナル530問を265問に厳選し、10月20日提供の緑内障学習テーマから30問を追加しました。追加分は出題未確定のオリジナル問題で、薬剤添文・国内機器使用基準・原著論文を参照。手技の順序、条件別の対応、鑑別・所見の比較を優先しています。',
   'PFMS周術期管理は、時期ごとのチェックポイントと対応を問う10問に整理。早期一桁目標、マッサージ回数、2週の管内糸抜去、2週〜1か月の結膜抜糸、半年のステロイドは提供メモの方針として示し、一般的な知識や文献上の幅と解説で区別しています。ステントは管内10-0ナイロン、パルスは毛様体マイクロパルス、AVASは無血管性濾過胞です。',
+  '2026年10月21日：ローカルの問題・解答・再現記録から過去問130問を追加（うち画像付き22問）。旧形式の白内障PPTも照合し、同一設問は重複させずに補充。出典の位置と確認用資料を各問に記載しています。',
   '2009年の口頭試問、2013・2019・2023・2025年の問題資料、2017・2018・2024・2025年の再現記録から過去問64問を追加。出典の設問・論点を再構成し、参考解答としています。古い治療記載や明らかな誤記は関連資料と照合して補正しました。',
   '「過去問」は一問一答に分割・再構成しています。「再現記録」は提供された記録を基にした文章問題で、元の出題画像がないものです。原画像を作り替えたり、架空の過去問画像を生成したりしていません。',
   'AMDのメモは補正：1型はRPE下（旧occultに対応することが多い）、2型は網膜下（旧classicに対応することが多い）、3型は網膜内血管系由来。旧FA分類との完全な同義ではありません。',

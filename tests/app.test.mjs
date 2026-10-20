@@ -27,8 +27,8 @@ test('table expansions cover all eight subjects and remain original with traceab
   assert.equal(added.length,170);
   for(const s of SUBJECTS)assert.ok(added.filter(q=>q.subject===s.id).length>=10,s.id);
   assert.ok(added.every(q=>q.kind==='original'&&q.answerStatus.startsWith('参考解答')));
-  assert.equal(bank.filter(q=>q.kind==='past').length,145);
-  assert.equal(bank.filter(q=>q.kind==='past'&&q.image).length,79);
+  assert.equal(bank.filter(q=>q.kind==='past').length,275);
+  assert.equal(bank.filter(q=>q.kind==='past'&&q.image).length,101);
   for(let cell=1;cell<=5;cell++){
     const questions=added.filter(q=>q.group===`bleb-${cell}`);
     assert.ok(questions.length>=4,`missing coverage of table cell ${cell}`);
@@ -42,7 +42,7 @@ test('combined subject/source/image filters do not leak other subjects',()=>{
   assert.ok(qs.length>10);
   assert.ok(qs.every(q=>q.subject==='uveitis'&&q.kind==='past'&&q.image));
   const neuro=selectQuestions(bank,{subject:'neuro',kind:'past',images:true},emptyState());
-  assert.equal(neuro.length,3);
+  assert.equal(neuro.length,4);
   assert.ok(neuro.every(q=>q.subject==='neuro'&&q.kind==='past'&&q.image));
 });
 
@@ -88,7 +88,7 @@ test('all three source filters combine with subjects, specialist years and saved
     assert.ok(!selectQuestions(bank,{kind:'specialist',subject:subject.id,year:String(year),review:'wrong'},state).includes(selected[0]));
   }
   for(const kind of ['past','original','all'])assert.deepEqual(selectQuestions(bank,{kind,year:'2026'},state),selectQuestions(bank,{kind},state));
-  assert.equal(selectQuestions(bank,{kind:'past'},state).length,145);
+  assert.equal(selectQuestions(bank,{kind:'past'},state).length,275);
   assert.equal(selectQuestions(bank,{kind:'original'},state).length,305);
 });
 

@@ -26,6 +26,8 @@ export function loadQuestions() {
   }
   const supplements = JSON.parse(readFileSync(new URL('../content/past-supplement.json', import.meta.url), 'utf8'));
   questions.push(...supplements.map(q => ({...q,kind:'past'})));
+  const completion = JSON.parse(readFileSync(new URL('../content/past-completion.json', import.meta.url), 'utf8'));
+  questions.push(...completion.map(q => ({...q,kind:'past'})));
   const expansions = JSON.parse(readFileSync(new URL('../content/expanded.json', import.meta.url), 'utf8'));
   for (const {questions:items, ...group} of expansions) {
     for (const [prompt,answer,explanation] of items) {
