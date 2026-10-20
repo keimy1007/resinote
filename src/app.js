@@ -9,7 +9,7 @@ const byId=new Map(QUESTIONS.map(q=>[q.id,q]));
 let state=readState(localStorage);
 state.bookmarks=state.bookmarks.filter(id=>byId.has(id));
 let view='home';
-let filters={subject:'all',kind:'all',year:'all',review:'all',search:'',images:false,bookmarks:false};
+let filters={subject:'all',kind:'past',year:'all',review:'wrong',search:'',images:false,bookmarks:false};
 let setup={subject:'all',count:'10',kind:'past',year:'all',review:'wrong',images:false,random:true,bookmarks:false};
 let toastTimer;
 let storageFailed=false;
