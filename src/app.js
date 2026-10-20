@@ -10,7 +10,7 @@ let state=readState(localStorage);
 state.bookmarks=state.bookmarks.filter(id=>byId.has(id));
 let view='home';
 let filters={subject:'all',kind:'all',year:'all',review:'all',search:'',images:false,bookmarks:false};
-let setup={subject:'all',count:'10',kind:'all',year:'all',review:'all',images:false,random:true,bookmarks:false};
+let setup={subject:'all',count:'10',kind:'past',year:'all',review:'wrong',images:false,random:true,bookmarks:false};
 let toastTimer;
 let storageFailed=false;
 if(state.active&&(!Array.isArray(state.active.ids)||state.active.ids.some(id=>!byId.has(id))))state.active=null;
@@ -96,7 +96,7 @@ function libraryResults(){
 function empty(title,text){return `<div class="empty-state">${icon('book')}<h2>${title}</h2><p>${text}</p></div>`;}
 
 function openSetup(options={}){
-  setup={subject:'all',count:'10',kind:'all',year:'all',review:'all',images:false,random:true,bookmarks:false,...options};
+  setup={subject:'all',count:'10',kind:'past',year:'all',review:'wrong',images:false,random:true,bookmarks:false,...options};
   setupDialog.innerHTML=`<div class="dialog-head"><span></span><button class="icon-button" data-action="close-setup" aria-label="閉じる">${icon('close')}</button></div><h2 id="setup-title">${setup.bookmarks?'ブックマークから学習':'学習設定'}</h2><form id="setup-form"><div class="setup-grid"><label>科目<select name="subject">${subjectOptions(setup.subject)}</select></label><label>問題数<select name="count">${[['10','10問'],['20','20問'],['50','50問'],['all','すべて']].map(([v,l])=>`<option value="${v}" ${String(setup.count)===v?'selected':''}>${l}</option>`).join('')}</select></label><label>出題元<select name="kind">${kindOptions(setup.kind)}</select></label><label id="setup-year-label" ${setup.kind==='specialist'?'':'hidden'}>年度<select name="year">${yearOptions(setup.year)}</select></label><label>学習状態<select name="review">${reviewOptions(setup.review)}</select></label></div><div class="setup-checks"><label><input name="images" type="checkbox" ${setup.images?'checked':''}>画像付きのみ</label><label><input name="random" type="checkbox" ${setup.random?'checked':''}>ランダムに出題</label></div><div id="setup-preview"></div>${state.active?'<p class="small muted">新しく始めると途中のセッションは置き換わります。チェック済みの学習記録は残ります。</p>':''}<button type="submit" class="button primary full-width" id="start-button">学習をスタート ${icon('arrow')}</button></form>`;
   updateSetupPreview();setupDialog.showModal();
 }
@@ -150,7 +150,7 @@ document.addEventListener('click',async event=>{
   const b=event.target.closest('[data-action]');if(!b||b.disabled)return;
   const action=b.dataset.action;const s=state.active;
   if(action==='nav'){if(b.dataset.view==='library')filters.bookmarks=false;navigate(b.dataset.view);}
-  if(action==='setup')openSetup({subject:b.dataset.subject||'all',review:b.dataset.review||'all',kind:b.dataset.kind||'all'});
+  if(action==='setup')openSetup({subject:b.dataset.subject||'all',review:b.dataset.review||'wrong',kind:b.dataset.kind||'past'});
   if(action==='close-setup')setupDialog.close();
   if(action==='resume')navigate('session');
   if(action==='bookmarks'){filters={subject:'all',kind:'all',year:'all',review:'all',search:'',images:false,bookmarks:true};navigate('library');}
