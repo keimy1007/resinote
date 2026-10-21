@@ -10,6 +10,10 @@ export const SUBJECTS = [
 ];
 
 export const REFERENCES = {
+  casia2manual:{title:'TOMEY：CASIA2 Application Manual・角膜マップとHOAs／SA（p.40・108）',url:'https://manuals.plus/m/126f9f5dc34d4c1f0d8dee07f3fbcc4e41c6fd508c04edd25940ea8887ebfd4f.pdf',note:'メーカー取扱説明書の公開ミラー。表示名・解析条件はソフトウェア版も確認。'},
+  casiaectasia:{title:'CASIA2による角膜形状・Elevation指標を用いた円錐角膜検出の原著（2024）',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC11556849/'},
+  cornealhoa:{title:'不正角膜における高次収差の種類・解析径による違いの原著（2024）',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC11462483/'},
+  hoarms:{title:'高次収差のZernike係数とRMSの算出を記載した原著（2010）',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC3380664/'},
   lensaquaporin: {"title": "水晶体アクアポリンの水透過性・原著", "url": "https://pubmed.ncbi.nlm.nih.gov/15790907/"},
   iolglistening: {"title": "疎水性アクリルIOLのSSNGと光散乱・原著", "url": "https://pubmed.ncbi.nlm.nih.gov/22999603/"},
   duotrav: {"title": "PMDA：デュオトラバ電子添文", "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_1319820Q1022_2_06"},

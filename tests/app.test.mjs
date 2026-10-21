@@ -24,7 +24,7 @@ test('8 subjects have distinct, traceable questions with answers and explanation
 
 test('table expansions cover all eight subjects and remain original with traceable sources',()=>{
   const added=bank.filter(q=>q.group);
-  assert.equal(added.length,170);
+  assert.equal(added.length,178);
   for(const s of SUBJECTS)assert.ok(added.filter(q=>q.subject===s.id).length>=10,s.id);
   assert.ok(added.every(q=>q.kind==='original'&&q.answerStatus.startsWith('参考解答')));
   assert.equal(bank.filter(q=>q.kind==='past').length,275);
@@ -89,7 +89,7 @@ test('all three source filters combine with subjects, specialist years and saved
   }
   for(const kind of ['past','original','all'])assert.deepEqual(selectQuestions(bank,{kind,year:'2026'},state),selectQuestions(bank,{kind},state));
   assert.equal(selectQuestions(bank,{kind:'past'},state).length,275);
-  assert.equal(selectQuestions(bank,{kind:'original'},state).length,305);
+  assert.equal(selectQuestions(bank,{kind:'original'},state).length,313);
 });
 
 
